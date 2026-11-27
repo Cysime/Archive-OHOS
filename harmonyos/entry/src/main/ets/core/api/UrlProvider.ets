@@ -49,6 +49,42 @@ export class UrlProvider {
     return targetHost === ApiConstants.MAIN_HOST || targetHost.endsWith(`.${ApiConstants.MAIN_HOST}`);
   }
 
+  /**
+   * 内嵌 ArkWeb（登录/注册/Cloudflare 过盾）允许导航的域名白名单：
+   * 仅放行目标站点本身与 Cloudflare / 人机验证相关域，拦截所有第三方广告与恶意跳转（如 awhilepowershakily.com）。
+   */
+  static isAllowedWebViewUrl(url: string, configuredBaseUrl: string = UrlProvider.DEFAULT_BASE_URL): boolean {
+    const trimmed = url.trim().toLowerCase();
+    if (trimmed.length === 0 || trimmed === 'about:blank' || trimmed.startsWith('data:') || trimmed.startsWith('blob:')) {
+      return true;
+    }
+    if (!trimmed.startsWith('http://') && !trimmed.startsWith('https://')) {
+      return false;
+    }
+    if (UrlProvider.isTargetSiteUrl(trimmed, configuredBaseUrl)) {
+      return true;
+    }
+    const host = UrlProvider.extractHost(trimmed);
+    const allowedSuffixes: string[] = [
+      'cloudflare.com',
+      'hcaptcha.com',
+      'recaptcha.net',
+      'gstatic.com',
+      'arkoselabs.com',
+      'funcaptcha.com'
+    ];
+    for (let i = 0; i < allowedSuffixes.length; i++) {
+      const suffix = allowedSuffixes[i];
+      if (host === suffix || host.endsWith(`.${suffix}`)) {
+        return true;
+      }
+    }
+    if ((host === 'www.google.com' || host === 'google.com') && trimmed.includes('/recaptcha')) {
+      return true;
+    }
+    return false;
+  }
+
   private static subdomainBase(baseUrl: string, prefix: string): string {
     const cleaned = UrlProvider.trimTrailingSlash(baseUrl.trim());
     if (cleaned.length === 0) {

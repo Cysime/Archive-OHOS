@@ -60,45 +60,49 @@ export struct AppTopBar {
   private readonly theme: ArchiveThemeController = ArchiveThemeController.getInstance();
 
   build() {
-    Row({ space: 8 }) {
-      if (this.showBack) {
-        Button({ type: ButtonType.Circle, stateEffect: true }) {
-          AppIcon({ icon: $r('app.media.ic_back'), iconSize: 20, tint: this.theme.colors.textPrimary })
+    Column() {
+      Row({ space: 8 }) {
+        if (this.showBack) {
+          Button({ type: ButtonType.Circle, stateEffect: true }) {
+            AppIcon({ icon: $r('app.media.ic_back'), iconSize: 20, tint: this.theme.colors.textPrimary })
+          }
+          .width(40)
+          .height(40)
+          .backgroundColor(Color.Transparent)
+          .onClick(() => {
+            this.onBack();
+          })
         }
-        .width(40)
-        .height(40)
-        .backgroundColor(Color.Transparent)
-        .onClick(() => {
-          this.onBack();
-        })
-      }
 
-      Column({ space: 2 }) {
-        Text(this.title)
-          .fontSize(20)
-          .fontWeight(FontWeight.Bold)
-          .fontColor(this.theme.colors.textPrimary)
-          .maxLines(1)
-          .textOverflow({ overflow: TextOverflow.Ellipsis })
-        if (this.subtitle.length > 0) {
-          Text(this.subtitle)
-            .fontSize(12)
-            .fontColor(this.theme.colors.textSecondary)
+        Column({ space: 2 }) {
+          Text(this.title)
+            .fontSize(20)
+            .fontWeight(FontWeight.Bold)
+            .fontColor(this.theme.colors.textPrimary)
             .maxLines(1)
             .textOverflow({ overflow: TextOverflow.Ellipsis })
+          if (this.subtitle.length > 0) {
+            Text(this.subtitle)
+              .fontSize(12)
+              .fontColor(this.theme.colors.textSecondary)
+              .maxLines(1)
+              .textOverflow({ overflow: TextOverflow.Ellipsis })
+          }
+        }
+        .alignItems(HorizontalAlign.Start)
+        .layoutWeight(1)
+
+        if (this.trailing !== undefined) {
+          this.trailing()
         }
       }
-      .alignItems(HorizontalAlign.Start)
-      .layoutWeight(1)
-
-      if (this.trailing !== undefined) {
-        this.trailing()
-      }
+      .width('100%')
+      .height(52)
+      .padding({ left: this.showBack ? 8 : 16, right: 12 })
+      .alignItems(VerticalAlign.Center)
     }
     .width('100%')
-    .height(56)
-    .padding({ left: this.showBack ? 8 : 16, right: 12 })
-    .alignItems(VerticalAlign.Center)
+    .padding({ top: this.theme.topSafeVp })
     .backgroundColor(this.theme.colors.background)
   }
 }

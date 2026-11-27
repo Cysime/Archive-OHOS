@@ -135,7 +135,12 @@ export struct AgeGateScreen {
         }
         .width('100%')
         .constraintSize({ maxWidth: 460 })
-        .padding({ left: 28, right: 28, top: 32, bottom: 32 })
+        .padding({
+          left: 28,
+          right: 28,
+          top: 32 + this.theme.topSafeVp,
+          bottom: 32 + this.theme.bottomSafeVp
+        })
         .alignItems(HorizontalAlign.Center)
       }
       .width('100%')

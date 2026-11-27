@@ -221,35 +221,43 @@ export struct ArchiveRoot {
 
   @Builder
   bottomBar() {
-    Row() {
-      ForEach(this.mainTabs, (tab: MainTabSpec) => {
-        Column({ space: 4 }) {
-          AppIcon({
-            icon: tab.icon,
-            iconSize: 22,
-            tint: this.currentTabIndex === tab.index
-              ? this.theme.colors.primary
-              : this.theme.colors.textSecondary
+    Column() {
+      Row() {
+        ForEach(this.mainTabs, (tab: MainTabSpec) => {
+          Column({ space: 3 }) {
+            AppIcon({
+              icon: tab.icon,
+              iconSize: 22,
+              tint: this.currentTabIndex === tab.index
+                ? this.theme.colors.primary
+                : this.theme.colors.textSecondary
+            })
+            Text(tab.label)
+              .fontSize(11)
+              .fontWeight(this.currentTabIndex === tab.index ? FontWeight.Medium : FontWeight.Regular)
+              .fontColor(this.currentTabIndex === tab.index
+                ? this.theme.colors.primary
+                : this.theme.colors.textSecondary)
+          }
+          .layoutWeight(1)
+          .height(48)
+          .justifyContent(FlexAlign.Center)
+          .alignItems(HorizontalAlign.Center)
+          .onClick(() => {
+            this.currentTabIndex = tab.index;
+            this.tabsController.changeIndex(tab.index);
           })
-          Text(tab.label)
-            .fontSize(11)
-            .fontWeight(this.currentTabIndex === tab.index ? FontWeight.Medium : FontWeight.Regular)
-            .fontColor(this.currentTabIndex === tab.index
-              ? this.theme.colors.primary
-              : this.theme.colors.textSecondary)
-        }
-        .layoutWeight(1)
-        .height(56)
-        .justifyContent(FlexAlign.Center)
-        .alignItems(HorizontalAlign.Center)
-        .onClick(() => {
-          this.currentTabIndex = tab.index;
-          this.tabsController.changeIndex(tab.index);
-        })
-      }, (tab: MainTabSpec) => `${tab.index}`)
+        }, (tab: MainTabSpec) => `${tab.index}`)
+      }
+      .width('100%')
+      .height(48)
     }
     .width('100%')
-    .height(56)
+    // 小白条沉浸化：底栏背景直接延伸至屏幕物理底部，底部仅保留紧凑内边距（约小白条自身高度），消除底栏与小白条之间的空隙
+    .padding({
+      top: 4,
+      bottom: this.theme.bottomSafeVp > 0 ? Math.max(10, Math.round(this.theme.bottomSafeVp * 0.55)) : 4
+    })
     .backgroundColor(this.theme.colors.surface)
     .border({ width: { top: 0.5 }, color: this.theme.colors.divider })
   }

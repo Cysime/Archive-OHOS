@@ -1,6 +1,6 @@
 {
   "app": {
-    "bundleName": "com.archive.app",
+    "bundleName": "com.archive.app.ohos",
     "vendor": "archive",
     "versionCode": 5,
     "versionName": "1.0.4",

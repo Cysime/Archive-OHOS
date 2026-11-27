@@ -77,7 +77,13 @@ export class AppContainer {
     this.creatorRepo = new CreatorRepository(this.api, this.database);
     this.historyRepo = new HistoryRepository(this.database, this.sessionManager);
     this.favoriteRepo = new FavoriteRepository(this.api, this.database, this.sessionManager, this.settings);
-    this.authRepo = new AuthRepository(this.sessionManager, this.apiClient, this.favoriteRepo);
+    this.authRepo = new AuthRepository(
+      this.sessionManager,
+      this.apiClient,
+      this.cloudflare,
+      this.api,
+      this.favoriteRepo
+    );
     this.postRepo = new PostRepository(this.api, this.favoriteRepo, this.creatorRepo);
     this.downloadCenter = new DownloadCenter(this.apiClient, this.database, this.settings, this.sessionManager);
     this.downloadRules = new DownloadRuleRepository(this.database);

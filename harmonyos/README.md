@@ -4,7 +4,7 @@
 
 ## 目录隔离与上游同步
 
-本工程完全位于 `harmonyos/` 目录内，**不修改上游 Android 项目的任何文件**。
+本工程完全位于 `harmonyos/` 目录内，**不修改上游 Android 项目的任何文件**（`bundleName: com.archive.app.ohos`，避免与原版冲突）。
 同步上游更新时执行：
 
 ```bash

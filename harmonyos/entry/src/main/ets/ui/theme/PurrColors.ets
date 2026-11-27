@@ -104,6 +104,8 @@ export class ArchiveThemeController {
   @Trace seedColorHex: string = DEFAULT_SEED_LIGHT;
   @Trace blurThumbnails: boolean = true;
   @Trace colors: PurrColors = purrLightColors();
+  @Trace topSafeVp: number = 0;
+  @Trace bottomSafeVp: number = 0;
 
   private systemColorMode: ConfigurationConstant.ColorMode = ConfigurationConstant.ColorMode.COLOR_MODE_LIGHT;
   private mainWindow?: window.Window;
@@ -117,7 +119,45 @@ export class ArchiveThemeController {
 
   attachWindow(win: window.Window): void {
     this.mainWindow = win;
+    try {
+      win.setWindowLayoutFullScreen(true).catch((e: Object) => {
+        Logger.w(TAG, `setWindowLayoutFullScreen failed: ${String(e)}`);
+      });
+      win.on('avoidAreaChange', (data: window.AvoidAreaOptions) => {
+        this.applyAvoidArea(win, data.type, data.area);
+      });
+    } catch (e) {
+      Logger.w(TAG, `attachWindow immersive setup failed: ${String(e)}`);
+    }
     this.syncWindowAppearance();
+    this.refreshSafeInsets();
+  }
+
+  refreshSafeInsets(): void {
+    if (this.mainWindow === undefined) {
+      return;
+    }
+    try {
+      const sysArea = this.mainWindow.getWindowAvoidArea(window.AvoidAreaType.TYPE_SYSTEM);
+      this.applyAvoidArea(this.mainWindow, window.AvoidAreaType.TYPE_SYSTEM, sysArea);
+      const navArea = this.mainWindow.getWindowAvoidArea(window.AvoidAreaType.TYPE_NAVIGATION_INDICATOR);
+      this.applyAvoidArea(this.mainWindow, window.AvoidAreaType.TYPE_NAVIGATION_INDICATOR, navArea);
+    } catch (e) {
+      Logger.w(TAG, `refreshSafeInsets failed: ${String(e)}`);
+    }
+  }
+
+  private applyAvoidArea(win: window.Window, type: window.AvoidAreaType, area: window.AvoidArea): void {
+    try {
+      const uiCtx = win.getUIContext();
+      if (type === window.AvoidAreaType.TYPE_SYSTEM) {
+        this.topSafeVp = Math.max(0, Math.round(uiCtx.px2vp(area.topRect.height)));
+      } else if (type === window.AvoidAreaType.TYPE_NAVIGATION_INDICATOR) {
+        this.bottomSafeVp = Math.max(0, Math.round(uiCtx.px2vp(area.bottomRect.height)));
+      }
+    } catch (_e) {
+      // UIContext 在 loadContent 完成前可能尚未就绪，loadContent 回调里会再刷新一次
+    }
   }
 
   setSystemColorMode(mode?: ConfigurationConstant.ColorMode): void {

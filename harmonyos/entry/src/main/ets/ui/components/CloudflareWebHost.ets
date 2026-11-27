@@ -1,4 +1,5 @@
 import { webview } from '@kit.ArkWeb';
+import { UrlProvider } from '../../core/api/UrlProvider';
 import { AppContainer } from '../../core/AppContainer';
 import { Logger } from '../../core/util/Logger';
 
@@ -6,7 +7,7 @@ const TAG: string = 'CloudflareWebHost';
 
 /**
  * 隐藏的 ArkWeb 宿主组件，用于在后台静默执行 Cloudflare Managed Challenge 并提取 cf_clearance。
- * 挂载在 ArchiveRoot 顶层（1vp x 1vp、不可交互、透明），不干扰前台页面。
+ * 已启用域名白名单与禁止多窗弹窗，防止站点第三方广告脚本劫持跳转。
  */
 @ComponentV2
 export struct CloudflareWebHost {
@@ -47,6 +48,17 @@ export struct CloudflareWebHost {
       .hitTestBehavior(HitTestMode.None)
       .javaScriptAccess(true)
       .domStorageAccess(true)
+      .multiWindowAccess(false)
+      .allowWindowOpenMethod(false)
+      .onLoadIntercept((event) => {
+        const reqUrl = event.data.getRequestUrl();
+        const baseUrl = AppContainer.getInstance().apiClient.getBaseUrl();
+        const allowed = UrlProvider.isAllowedWebViewUrl(reqUrl, baseUrl);
+        if (!allowed) {
+          Logger.w(TAG, `Blocked non-whitelisted redirect in CF WebView: ${reqUrl}`);
+        }
+        return !allowed;
+      })
       .onControllerAttached(() => {
         this.webReady = true;
         if (this.pendingUrl.length > 0) {

@@ -112,6 +112,9 @@ test('UrlProvider prefers temp_url / temp_download_url for deferred videos', () 
   assert.equal(UrlProvider.isTemporaryUrl(hls), true);
   assert.equal(UrlProvider.isTargetSiteUrl(hls, 'https://pawchive.pw'), true);
   assert.equal(UrlProvider.isTargetSiteUrl('https://example.com/a.jpg', 'https://pawchive.pw'), false);
+  assert.equal(UrlProvider.isAllowedWebViewUrl('https://pawchive.pw/account/register', 'https://pawchive.pw'), true);
+  assert.equal(UrlProvider.isAllowedWebViewUrl('https://challenges.cloudflare.com/turnstile', 'https://pawchive.pw'), true);
+  assert.equal(UrlProvider.isAllowedWebViewUrl('https://awhilepowershakily.com/', 'https://pawchive.pw'), false);
 });
 
 test('FlexParsers parses Postgres array literal tags and JSON arrays', () => {

@@ -8,6 +8,7 @@ import { MediaPlayerView } from '../components/MediaPlayerView';
 import { ZoomableImageView } from '../components/ZoomableImageView';
 import { AppButton, AppErrorState, AppIcon, AppLoadingState } from '../design/AppComponents';
 import { AppRoutes } from '../navigation/AppRoutes';
+import { ArchiveThemeController } from '../theme/PurrColors';
 
 /**
  * 沉浸式媒体查看器（对齐上游 ui/screens/MediaViewerScreen.kt）。
@@ -26,6 +27,7 @@ export struct MediaViewerScreen {
   @Event onNavigate: (route: string, param?: Object) => void = (_route: string, _param?: Object) => {};
 
   private readonly container: AppContainer = AppContainer.getInstance();
+  private readonly theme: ArchiveThemeController = ArchiveThemeController.getInstance();
   private readonly swiperController: SwiperController = new SwiperController();
 
   @Local detail?: PostDetailDto = undefined;
@@ -143,7 +145,7 @@ export struct MediaViewerScreen {
         })
       }
       .width('100%')
-      .padding({ left: 12, right: 12, top: 8, bottom: 8 })
+      .padding({ left: 12, right: 12, top: 8 + this.theme.topSafeVp, bottom: 8 })
       .backgroundColor('#CC000000')
 
       if (this.loading) {
@@ -264,7 +266,7 @@ export struct MediaViewerScreen {
         }
       }
       .width('100%')
-      .padding({ left: 14, right: 14, top: 10, bottom: 16 })
+      .padding({ left: 14, right: 14, top: 10, bottom: 12 + this.theme.bottomSafeVp })
       .backgroundColor('#CC000000')
       }
       .width('100%')

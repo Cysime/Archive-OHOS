@@ -38,7 +38,9 @@ export default class EntryAbility extends UIAbility {
       windowStage.loadContent('pages/Index', (err) => {
         if (err && err.code) {
           Logger.e(TAG, `loadContent failed: code=${err.code}, msg=${err.message}`);
+          return;
         }
+        ArchiveThemeController.getInstance().refreshSafeInsets();
       });
     };
 

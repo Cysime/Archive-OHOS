@@ -144,7 +144,7 @@ export struct MineScreen {
                 Text(
                   this.accountCount > 0
                     ? `已保存 ${this.accountCount} 个账号 · 点击切换或管理`
-                    : '点击配置 Pawchive session Cookie 或内嵌登录'
+                    : '点击账号密码登录、注册或管理多账号'
                 )
                   .fontSize(12)
                   .fontColor(this.theme.colors.textSecondary)
