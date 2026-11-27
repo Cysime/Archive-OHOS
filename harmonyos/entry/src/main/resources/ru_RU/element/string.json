@@ -1,0 +1,600 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "Archive HarmonyOS NEXT 客户端主模块"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "Archive 主界面"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "Archive"
+    },
+    {
+      "name": "app_name",
+      "value": "Archive"
+    },
+    {
+      "name": "language_section",
+      "value": "Язык"
+    },
+    {
+      "name": "language_title",
+      "value": "Язык интерфейса"
+    },
+    {
+      "name": "language_summary",
+      "value": "Влияет только на меню и тексты настроек; содержимое публикаций не переводится. Применяется сразу."
+    },
+    {
+      "name": "language_system",
+      "value": "Как в системе"
+    },
+    {
+      "name": "nav_home",
+      "value": "Главная"
+    },
+    {
+      "name": "nav_discover",
+      "value": "Обзор"
+    },
+    {
+      "name": "nav_favorites",
+      "value": "Избранное"
+    },
+    {
+      "name": "nav_mine",
+      "value": "Профиль"
+    },
+    {
+      "name": "ai_switch_deep",
+      "value": "Глубокое мышление"
+    },
+    {
+      "name": "ai_switch_deep_summary",
+      "value": "Сначала рассуждение, потом ответ; подходит для длинных текстов. Выключено: поля рассуждения не отправляются"
+    },
+    {
+      "name": "ai_switch_web",
+      "value": "Поиск в интернете"
+    },
+    {
+      "name": "ai_switch_web_summary",
+      "value": "Полезно, чтобы спросить, что это за произведение; для перевода обычно не нужно"
+    },
+    {
+      "name": "ai_thinking_level",
+      "value": "Уровень рассуждения"
+    },
+    {
+      "name": "ai_thinking_level_summary",
+      "value": "reasoning_effort (OpenAI) / thinking_budget (Qwen); нужен включённый глубокий режим"
+    },
+    {
+      "name": "ai_thinking_low",
+      "value": "Низкий (быстрее)"
+    },
+    {
+      "name": "ai_thinking_middle",
+      "value": "Средний (по умолчанию)"
+    },
+    {
+      "name": "ai_thinking_high",
+      "value": "Высокий (глубже)"
+    },
+    {
+      "name": "profile_edit",
+      "value": "Изменить"
+    },
+    {
+      "name": "profile_delete",
+      "value": "Удалить"
+    },
+    {
+      "name": "profile_add",
+      "value": "Добавить профиль"
+    },
+    {
+      "name": "profile_editor_edit",
+      "value": "Изменить профиль"
+    },
+    {
+      "name": "profile_no_model",
+      "value": "(модель не указана)"
+    },
+    {
+      "name": "profile_field_name",
+      "value": "Название (например, Zhipu)"
+    },
+    {
+      "name": "profile_field_url",
+      "value": "URL эндпоинта"
+    },
+    {
+      "name": "profile_field_key",
+      "value": "API-ключ (пусто для своего сервера)"
+    },
+    {
+      "name": "profile_field_model",
+      "value": "Модель (используется для назначенной задачи)"
+    },
+    {
+      "name": "profile_field_show",
+      "value": "Показать"
+    },
+    {
+      "name": "profile_field_hide",
+      "value": "Скрыть"
+    },
+    {
+      "name": "profile_invalid",
+      "value": "Название, URL и модель обязательны"
+    },
+    {
+      "name": "action_save",
+      "value": "Сохранить"
+    },
+    {
+      "name": "action_cancel",
+      "value": "Отмена"
+    },
+    {
+      "name": "ai_settings_title",
+      "value": "Перевод публикаций"
+    },
+    {
+      "name": "ai_overview_title",
+      "value": "ИИ-эндпоинт"
+    },
+    {
+      "name": "ai_overview_summary",
+      "value": "Для каждого назначения можно использовать модель другой платформы; промпт, сэмплирование и переключатели рассуждения общие для всех профилей."
+    },
+    {
+      "name": "status_configured",
+      "value": "Настроено"
+    },
+    {
+      "name": "status_pending",
+      "value": "Не настроено"
+    },
+    {
+      "name": "section_profiles",
+      "value": "Профили моделей"
+    },
+    {
+      "name": "profiles_empty",
+      "value": "Профилей пока нет. Нажмите «Добавить профиль»."
+    },
+    {
+      "name": "section_purposes",
+      "value": "Распределение назначений"
+    },
+    {
+      "name": "purposes_empty",
+      "value": "Сначала добавьте профиль, затем назначьте его каждому использованию."
+    },
+    {
+      "name": "purpose_translation",
+      "value": "Перевод публикаций"
+    },
+    {
+      "name": "purpose_translation_summary",
+      "value": "Перевод заголовка и текста"
+    },
+    {
+      "name": "purpose_vision",
+      "value": "Понимание изображений (сводка / вопросы)"
+    },
+    {
+      "name": "purpose_vision_summary",
+      "value": "ИИ-сводка и вопросы по изображению"
+    },
+    {
+      "name": "purpose_placeholder",
+      "value": "(сначала добавьте профиль)"
+    },
+    {
+      "name": "auto_translate",
+      "value": "Автоперевод"
+    },
+    {
+      "name": "auto_translate_summary",
+      "value": "Начинает перевод при открытии публикации (профиль «Перевод публикаций»); выключено — нажмите «Показать перевод»."
+    },
+    {
+      "name": "section_test",
+      "value": "Проверка"
+    },
+    {
+      "name": "test_summary",
+      "value": "«Проверка соединения» использует профиль перевода, «Проверка изображений» — профиль изображений; проверяйте после смены эндпоинта или модели."
+    },
+    {
+      "name": "test_running",
+      "value": "Проверка…"
+    },
+    {
+      "name": "test_connection",
+      "value": "Проверить соединение"
+    },
+    {
+      "name": "test_vision",
+      "value": "Проверка изображений"
+    },
+    {
+      "name": "section_thinking",
+      "value": "Рассуждение и веб"
+    },
+    {
+      "name": "section_prompt",
+      "value": "Промпт"
+    },
+    {
+      "name": "prompt_label",
+      "value": "Системный промпт"
+    },
+    {
+      "name": "prompt_hint",
+      "value": "Отправляется как системное сообщение: язык и тон задаются здесь"
+    },
+    {
+      "name": "section_sampling",
+      "value": "Сэмплирование"
+    },
+    {
+      "name": "sampling_temperature",
+      "value": "Температура"
+    },
+    {
+      "name": "sampling_temperature_summary",
+      "value": "temperature · 0–2, ниже — стабильнее"
+    },
+    {
+      "name": "sampling_top_p",
+      "value": "Top-p"
+    },
+    {
+      "name": "sampling_top_p_summary",
+      "value": "top_p · 0–1"
+    },
+    {
+      "name": "sampling_max_tokens",
+      "value": "Максимум вывода"
+    },
+    {
+      "name": "sampling_max_tokens_summary",
+      "value": "max_tokens · 128–8192, для длинных текстов 2400+"
+    },
+    {
+      "name": "sampling_freq",
+      "value": "Штраф частоты"
+    },
+    {
+      "name": "sampling_freq_summary",
+      "value": "frequency_penalty · -2–2"
+    },
+    {
+      "name": "sampling_pres",
+      "value": "Штраф присутствия"
+    },
+    {
+      "name": "sampling_pres_summary",
+      "value": "presence_penalty · -2–2"
+    },
+    {
+      "name": "field_api_type",
+      "value": "Тип API"
+    },
+    {
+      "name": "test_ok_no_switches",
+      "value": "Соединение OK · %dms · рассуждение и веб выключены · «%s»"
+    },
+    {
+      "name": "test_ok_with_switches",
+      "value": "Соединение OK · %dms · отправлено %s · «%s»"
+    },
+    {
+      "name": "test_warn_no_reasoning",
+      "value": "; в ответе нет reasoning_content — возможно, эндпоинт игнорирует глубокое мышление"
+    },
+    {
+      "name": "test_warn_no_search",
+      "value": "; в ответе нет данных поиска"
+    },
+    {
+      "name": "test_failed",
+      "value": "Ошибка: %s"
+    },
+    {
+      "name": "test_switches_hint",
+      "value": "(Параметры отправлены согласно переключателям; выключите их и проверьте снова)"
+    },
+    {
+      "name": "vision_ok",
+      "value": "Изображение OK · %dms · прочитано «%s»"
+    },
+    {
+      "name": "vision_failed_unmatched",
+      "value": "Соединение работает, но тестовое число %s не прочитано (ответ «%s»): возможно, модель не поддерживает изображения"
+    },
+    {
+      "name": "post_detail_title",
+      "value": "Подробности публикации"
+    },
+    {
+      "name": "save_all_images",
+      "value": "Сохранить все изображения"
+    },
+    {
+      "name": "favorite",
+      "value": "В избранное"
+    },
+    {
+      "name": "unfavorite",
+      "value": "Убрать из избранного"
+    },
+    {
+      "name": "share_post",
+      "value": "Поделиться публикацией"
+    },
+    {
+      "name": "author_avatar",
+      "value": "Аватар автора"
+    },
+    {
+      "name": "subscribe",
+      "value": "Подписаться"
+    },
+    {
+      "name": "subscribed",
+      "value": "Вы подписаны"
+    },
+    {
+      "name": "preview_only_notice",
+      "value": "Сайт помечает этот файл как preview_only: без входа доступен только предпросмотр, для оригинала нужна активная сессия."
+    },
+    {
+      "name": "cd_comments",
+      "value": "Комментарии"
+    },
+    {
+      "name": "cd_attachments",
+      "value": "Вложения"
+    },
+    {
+      "name": "cd_share",
+      "value": "Поделиться"
+    },
+    {
+      "name": "section_attachments",
+      "value": "Вложения (%d)"
+    },
+    {
+      "name": "external_links",
+      "value": "Внешние ссылки"
+    },
+    {
+      "name": "section_comments",
+      "value": "Комментарии (%d)"
+    },
+    {
+      "name": "section_revisions",
+      "value": "История правок (%d)"
+    },
+    {
+      "name": "revision_title",
+      "value": "Правка #%s · %s"
+    },
+    {
+      "name": "revision_no_title",
+      "value": "(без названия)"
+    },
+    {
+      "name": "revision_edited",
+      "value": "Изменено %s"
+    },
+    {
+      "name": "revision_published",
+      "value": "Опубликовано %s"
+    },
+    {
+      "name": "prev_post",
+      "value": "Предыдущая"
+    },
+    {
+      "name": "next_post",
+      "value": "Следующая"
+    },
+    {
+      "name": "share_image",
+      "value": "Поделиться изображением"
+    },
+    {
+      "name": "save_original",
+      "value": "Сохранить оригинал"
+    },
+    {
+      "name": "save_all_originals",
+      "value": "Сохранить все оригиналы"
+    },
+    {
+      "name": "copy_image_link",
+      "value": "Скопировать ссылку на изображение"
+    },
+    {
+      "name": "image_link",
+      "value": "Ссылка на изображение"
+    },
+    {
+      "name": "open_external_link",
+      "value": "Открыть внешнюю ссылку"
+    },
+    {
+      "name": "action_open",
+      "value": "Открыть"
+    },
+    {
+      "name": "cd_open_link",
+      "value": "Открыть ссылку"
+    },
+    {
+      "name": "attachment_image",
+      "value": "Изображение вложения"
+    },
+    {
+      "name": "download_named",
+      "value": "Скачать %s"
+    },
+    {
+      "name": "link_expired_long",
+      "value": "Временная ссылка на воспроизведение/скачивание истекла (ссылки сайта живут около 30 дней): откройте или обновите публикацию."
+    },
+    {
+      "name": "link_preview_only_long",
+      "value": "Сайт хранит только предпросмотр (preview_only): оригинал не импортирован или нужна активная сессия — воспроизведение и скачивание могут не работать."
+    },
+    {
+      "name": "link_deferred_long",
+      "value": "Сайт ещё не импортировал оригинал (deferred): адреса нет, обновите позже."
+    },
+    {
+      "name": "download_add_failed",
+      "value": "Не удалось добавить в загрузки: %s"
+    },
+    {
+      "name": "unknown_error",
+      "value": "Неизвестная ошибка"
+    },
+    {
+      "name": "load_failed",
+      "value": "Ошибка загрузки: %s"
+    },
+    {
+      "name": "network_error",
+      "value": "Ошибка сети"
+    },
+    {
+      "name": "link_expired_short",
+      "value": "Временная ссылка истекла; откройте публикацию заново"
+    },
+    {
+      "name": "no_original_short",
+      "value": "Сайт не импортировал оригинал, ссылки для скачивания нет"
+    },
+    {
+      "name": "open_link_prompt",
+      "value": "Приложение откроется вне:\n%s"
+    },
+    {
+      "name": "mine_signed_in",
+      "value": "Вы вошли · облачное избранное синхронизировано"
+    },
+    {
+      "name": "mine_not_signed_in",
+      "value": "Вы не вошли"
+    },
+    {
+      "name": "mine_sign_in_hint",
+      "value": "Нажмите, чтобы войти и синхронизировать избранное и оригиналы"
+    },
+    {
+      "name": "mine_messages",
+      "value": "Уведомления"
+    },
+    {
+      "name": "mine_storage",
+      "value": "Хранилище"
+    },
+    {
+      "name": "mine_downloads",
+      "value": "Загрузки"
+    },
+    {
+      "name": "mine_history",
+      "value": "История просмотров"
+    },
+    {
+      "name": "mine_settings",
+      "value": "Настройки"
+    },
+    {
+      "name": "mine_about",
+      "value": "О Archive"
+    },
+    {
+      "name": "mine_help",
+      "value": "Справка и отзывы"
+    },
+    {
+      "name": "mine_subscription_summary",
+      "value": "Подписка на %d авторов"
+    },
+    {
+      "name": "history_clear",
+      "value": "Очистить историю просмотров"
+    },
+    {
+      "name": "history_clear_summary",
+      "value": "Удалит всю историю просмотров на этом устройстве. Действие необратимо."
+    },
+    {
+      "name": "history_clear_confirm",
+      "value": "Очистить"
+    },
+    {
+      "name": "history_empty",
+      "value": "История пуста"
+    },
+    {
+      "name": "history_local_only",
+      "value": "Хранится только на этом устройстве"
+    },
+    {
+      "name": "pull_to_refresh_pull",
+      "value": "Потяните, чтобы обновить"
+    },
+    {
+      "name": "pull_to_refresh_release",
+      "value": "Отпустите, чтобы обновить"
+    },
+    {
+      "name": "pull_to_refresh_refreshing",
+      "value": "Обновление…"
+    },
+    {
+      "name": "pull_to_refresh_done",
+      "value": "Обновлено"
+    },
+    {
+      "name": "register_web_hint",
+      "value": "Регистрация требует капчи, поэтому официальная страница встроена ниже. Зарегистрируйтесь или войдите там — приложение войдёт автоматически; иначе используйте вкладку «Вход»."
+    },
+    {
+      "name": "register_web_open_browser",
+      "value": "Открыть в браузере"
+    },
+    {
+      "name": "register_web_failed",
+      "value": "Не удалось загрузить страницу регистрации: %s"
+    },
+    {
+      "name": "register_web_no_webview",
+      "value": "На этом устройстве нет доступного системного WebView — показать страницу регистрации в приложении нельзя"
+    },
+    {
+      "name": "open_browser_failed",
+      "value": "Не удалось открыть браузер. Откройте вручную: %s"
+    },
+    {
+      "name": "action_retry",
+      "value": "Повторить"
+    },
+    {
+      "name": "mine_signed_in_title",
+      "value": "Вы вошли"
+    }
+  ]
+}

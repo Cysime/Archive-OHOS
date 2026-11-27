@@ -1,0 +1,600 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "Archive HarmonyOS NEXT 客户端主模块"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "Archive 主界面"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "Archive"
+    },
+    {
+      "name": "app_name",
+      "value": "Archive"
+    },
+    {
+      "name": "language_section",
+      "value": "言語"
+    },
+    {
+      "name": "language_title",
+      "value": "表示言語"
+    },
+    {
+      "name": "language_summary",
+      "value": "アプリのメニューと設定の文字だけが変わります。投稿内容は翻訳されません。切り替えるとすぐに反映されます。"
+    },
+    {
+      "name": "language_system",
+      "value": "システムに従う"
+    },
+    {
+      "name": "nav_home",
+      "value": "ホーム"
+    },
+    {
+      "name": "nav_discover",
+      "value": "発見"
+    },
+    {
+      "name": "nav_favorites",
+      "value": "お気に入り"
+    },
+    {
+      "name": "nav_mine",
+      "value": "マイ"
+    },
+    {
+      "name": "ai_switch_deep",
+      "value": "深く考える"
+    },
+    {
+      "name": "ai_switch_deep_summary",
+      "value": "まず推論してから回答します。長文に最適。オフのときは思考関連フィールドを送信しません"
+    },
+    {
+      "name": "ai_switch_web",
+      "value": "ウェブ検索"
+    },
+    {
+      "name": "ai_switch_web_summary",
+      "value": "画像について「これは何の作品か」を尋ねるときに便利。翻訳では通常不要"
+    },
+    {
+      "name": "ai_thinking_level",
+      "value": "思考レベル"
+    },
+    {
+      "name": "ai_thinking_level_summary",
+      "value": "reasoning_effort（OpenAI）/ thinking_budget（Qwen）。先に「深く考える」をオンにしてください"
+    },
+    {
+      "name": "ai_thinking_low",
+      "value": "低（速い）"
+    },
+    {
+      "name": "ai_thinking_middle",
+      "value": "中（既定）"
+    },
+    {
+      "name": "ai_thinking_high",
+      "value": "高（より深く）"
+    },
+    {
+      "name": "profile_edit",
+      "value": "編集"
+    },
+    {
+      "name": "profile_delete",
+      "value": "削除"
+    },
+    {
+      "name": "profile_add",
+      "value": "プロファイルを追加"
+    },
+    {
+      "name": "profile_editor_edit",
+      "value": "プロファイルを編集"
+    },
+    {
+      "name": "profile_no_model",
+      "value": "（モデル未設定）"
+    },
+    {
+      "name": "profile_field_name",
+      "value": "名前（例：Zhipu）"
+    },
+    {
+      "name": "profile_field_url",
+      "value": "エンドポイント URL"
+    },
+    {
+      "name": "profile_field_key",
+      "value": "API キー（自前サーバーなら空でも可）"
+    },
+    {
+      "name": "profile_field_model",
+      "value": "モデル（このプロファイルが割り当てられた用途で使われます）"
+    },
+    {
+      "name": "profile_field_show",
+      "value": "表示"
+    },
+    {
+      "name": "profile_field_hide",
+      "value": "非表示"
+    },
+    {
+      "name": "profile_invalid",
+      "value": "名前・エンドポイント URL・モデルは必須です"
+    },
+    {
+      "name": "action_save",
+      "value": "保存"
+    },
+    {
+      "name": "action_cancel",
+      "value": "キャンセル"
+    },
+    {
+      "name": "ai_settings_title",
+      "value": "投稿の翻訳"
+    },
+    {
+      "name": "ai_overview_title",
+      "value": "AI エンドポイント"
+    },
+    {
+      "name": "ai_overview_summary",
+      "value": "用途ごとに別プラットフォームのモデルを割り当てられます。プロンプト・サンプリング・思考スイッチは全プロファイル共通です。"
+    },
+    {
+      "name": "status_configured",
+      "value": "設定済み"
+    },
+    {
+      "name": "status_pending",
+      "value": "未設定"
+    },
+    {
+      "name": "section_profiles",
+      "value": "モデルプロファイル"
+    },
+    {
+      "name": "profiles_empty",
+      "value": "プロファイルがありません。「プロファイルを追加」で接続してください。"
+    },
+    {
+      "name": "section_purposes",
+      "value": "用途の割り当て"
+    },
+    {
+      "name": "purposes_empty",
+      "value": "先にプロファイルを追加し、各用途に割り当ててください。"
+    },
+    {
+      "name": "purpose_translation",
+      "value": "投稿の翻訳"
+    },
+    {
+      "name": "purpose_translation_summary",
+      "value": "投稿のタイトルと本文を翻訳"
+    },
+    {
+      "name": "purpose_vision",
+      "value": "画像の理解（要約 / 質問）"
+    },
+    {
+      "name": "purpose_vision_summary",
+      "value": "AI 要約と画像 Q&A"
+    },
+    {
+      "name": "purpose_placeholder",
+      "value": "（先にプロファイルを追加）"
+    },
+    {
+      "name": "auto_translate",
+      "value": "自動翻訳"
+    },
+    {
+      "name": "auto_translate_summary",
+      "value": "投稿を開くと自動で翻訳します（「投稿の翻訳」のプロファイルを使用）。オフのときは本文下の「翻訳を表示」をタップ。"
+    },
+    {
+      "name": "section_test",
+      "value": "テスト"
+    },
+    {
+      "name": "test_summary",
+      "value": "「接続テスト」は翻訳プロファイル、「画像テスト」は画像プロファイルを使います。エンドポイントやモデルを変えたらここで確認してください。"
+    },
+    {
+      "name": "test_running",
+      "value": "テスト中…"
+    },
+    {
+      "name": "test_connection",
+      "value": "接続テスト"
+    },
+    {
+      "name": "test_vision",
+      "value": "画像テスト"
+    },
+    {
+      "name": "section_thinking",
+      "value": "推論とウェブ"
+    },
+    {
+      "name": "section_prompt",
+      "value": "プロンプト"
+    },
+    {
+      "name": "prompt_label",
+      "value": "システムプロンプト"
+    },
+    {
+      "name": "prompt_hint",
+      "value": "system メッセージとして送信されます。言語や口調はここで指定します"
+    },
+    {
+      "name": "section_sampling",
+      "value": "サンプリング"
+    },
+    {
+      "name": "sampling_temperature",
+      "value": "温度"
+    },
+    {
+      "name": "sampling_temperature_summary",
+      "value": "temperature · 0–2（低いほど安定）"
+    },
+    {
+      "name": "sampling_top_p",
+      "value": "トップp"
+    },
+    {
+      "name": "sampling_top_p_summary",
+      "value": "top_p · 0–1"
+    },
+    {
+      "name": "sampling_max_tokens",
+      "value": "最大出力"
+    },
+    {
+      "name": "sampling_max_tokens_summary",
+      "value": "max_tokens · 128–8192、長文の翻訳は 2400 以上推奨"
+    },
+    {
+      "name": "sampling_freq",
+      "value": "頻度ペナルティ"
+    },
+    {
+      "name": "sampling_freq_summary",
+      "value": "frequency_penalty · -2–2"
+    },
+    {
+      "name": "sampling_pres",
+      "value": "存在ペナルティ"
+    },
+    {
+      "name": "sampling_pres_summary",
+      "value": "presence_penalty · -2–2"
+    },
+    {
+      "name": "field_api_type",
+      "value": "API タイプ"
+    },
+    {
+      "name": "test_ok_no_switches",
+      "value": "接続 OK · %dms · 推論とウェブはオフ · 「%s」"
+    },
+    {
+      "name": "test_ok_with_switches",
+      "value": "接続 OK · %dms · 送信項目 %s · 「%s」"
+    },
+    {
+      "name": "test_warn_no_reasoning",
+      "value": "；応答に reasoning_content がありません（エンドポイントが深く考えるを無視した可能性）"
+    },
+    {
+      "name": "test_warn_no_search",
+      "value": "；応答に検索情報がありません（返し方は各社で異なります）"
+    },
+    {
+      "name": "test_failed",
+      "value": "失敗：%s"
+    },
+    {
+      "name": "test_switches_hint",
+      "value": "（推論とウェブのスイッチに従ってパラメータを送信しました。オフにして再テストすると確認できます）"
+    },
+    {
+      "name": "vision_ok",
+      "value": "画像 OK · %dms · 読み取り「%s」"
+    },
+    {
+      "name": "vision_failed_unmatched",
+      "value": "接続は成功しましたが、テスト数字 %s を読み取れません（応答「%s」）。このモデルは画像に対応していない可能性があります"
+    },
+    {
+      "name": "post_detail_title",
+      "value": "投稿の詳細"
+    },
+    {
+      "name": "save_all_images",
+      "value": "すべての画像を保存"
+    },
+    {
+      "name": "favorite",
+      "value": "お気に入り"
+    },
+    {
+      "name": "unfavorite",
+      "value": "お気に入り解除"
+    },
+    {
+      "name": "share_post",
+      "value": "投稿を共有"
+    },
+    {
+      "name": "author_avatar",
+      "value": "作者のアイコン"
+    },
+    {
+      "name": "subscribe",
+      "value": "購読"
+    },
+    {
+      "name": "subscribed",
+      "value": "購読中"
+    },
+    {
+      "name": "preview_only_notice",
+      "value": "このファイルはサイトで preview_only とされています。未ログインではプレビューのみ、原画には有効なセッションが必要です。"
+    },
+    {
+      "name": "cd_comments",
+      "value": "コメント"
+    },
+    {
+      "name": "cd_attachments",
+      "value": "添付"
+    },
+    {
+      "name": "cd_share",
+      "value": "共有"
+    },
+    {
+      "name": "section_attachments",
+      "value": "添付（%d）"
+    },
+    {
+      "name": "external_links",
+      "value": "外部リンク"
+    },
+    {
+      "name": "section_comments",
+      "value": "コメント（%d）"
+    },
+    {
+      "name": "section_revisions",
+      "value": "改訂履歴（%d）"
+    },
+    {
+      "name": "revision_title",
+      "value": "改訂 #%s · %s"
+    },
+    {
+      "name": "revision_no_title",
+      "value": "(無題)"
+    },
+    {
+      "name": "revision_edited",
+      "value": "編集 %s"
+    },
+    {
+      "name": "revision_published",
+      "value": "公開 %s"
+    },
+    {
+      "name": "prev_post",
+      "value": "前の投稿"
+    },
+    {
+      "name": "next_post",
+      "value": "次の投稿"
+    },
+    {
+      "name": "share_image",
+      "value": "画像を共有"
+    },
+    {
+      "name": "save_original",
+      "value": "原画を保存"
+    },
+    {
+      "name": "save_all_originals",
+      "value": "すべての原画を保存"
+    },
+    {
+      "name": "copy_image_link",
+      "value": "画像リンクをコピー"
+    },
+    {
+      "name": "image_link",
+      "value": "画像リンク"
+    },
+    {
+      "name": "open_external_link",
+      "value": "外部リンクを開く"
+    },
+    {
+      "name": "action_open",
+      "value": "開く"
+    },
+    {
+      "name": "cd_open_link",
+      "value": "リンクを開く"
+    },
+    {
+      "name": "attachment_image",
+      "value": "添付画像"
+    },
+    {
+      "name": "download_named",
+      "value": "%s をダウンロード"
+    },
+    {
+      "name": "link_expired_long",
+      "value": "一時的な再生/ダウンロードリンクが期限切れです（サイトのリンクは約 30 日有効）。投稿を開き直すか更新してください。"
+    },
+    {
+      "name": "link_preview_only_long",
+      "value": "サイトにはプレビューのみ（preview_only）。原画が未取り込みかログインセッションが必要なため、再生やダウンロードに失敗する場合があります。"
+    },
+    {
+      "name": "link_deferred_long",
+      "value": "サイトに原画がまだ取り込まれていません（deferred）。アドレスが無いため、後で投稿を更新してください。"
+    },
+    {
+      "name": "download_add_failed",
+      "value": "ダウンロードに追加できませんでした：%s"
+    },
+    {
+      "name": "unknown_error",
+      "value": "不明なエラー"
+    },
+    {
+      "name": "load_failed",
+      "value": "読み込みに失敗しました：%s"
+    },
+    {
+      "name": "network_error",
+      "value": "ネットワークエラー"
+    },
+    {
+      "name": "link_expired_short",
+      "value": "一時リンクが期限切れです。投稿を開き直してください"
+    },
+    {
+      "name": "no_original_short",
+      "value": "サイトに原画が未取り込みのため、ダウンロード先がありません"
+    },
+    {
+      "name": "open_link_prompt",
+      "value": "アプリを離れて開きます：\n%s"
+    },
+    {
+      "name": "mine_signed_in",
+      "value": "ログイン済み · クラウドのお気に入りを同期しました"
+    },
+    {
+      "name": "mine_not_signed_in",
+      "value": "未ログイン"
+    },
+    {
+      "name": "mine_sign_in_hint",
+      "value": "タップしてログインし、クラウドの保存と原画を同期"
+    },
+    {
+      "name": "mine_messages",
+      "value": "通知"
+    },
+    {
+      "name": "mine_storage",
+      "value": "ストレージ"
+    },
+    {
+      "name": "mine_downloads",
+      "value": "ダウンロード"
+    },
+    {
+      "name": "mine_history",
+      "value": "閲覧履歴"
+    },
+    {
+      "name": "mine_settings",
+      "value": "設定"
+    },
+    {
+      "name": "mine_about",
+      "value": "Archive について"
+    },
+    {
+      "name": "mine_help",
+      "value": "ヘルプとフィードバック"
+    },
+    {
+      "name": "mine_subscription_summary",
+      "value": "%d 人を購読中"
+    },
+    {
+      "name": "history_clear",
+      "value": "閲覧履歴を消去"
+    },
+    {
+      "name": "history_clear_summary",
+      "value": "この端末に保存された閲覧履歴をすべて削除します。取り消せません。"
+    },
+    {
+      "name": "history_clear_confirm",
+      "value": "消去"
+    },
+    {
+      "name": "history_empty",
+      "value": "閲覧履歴がありません"
+    },
+    {
+      "name": "history_local_only",
+      "value": "この端末にのみ保存されます"
+    },
+    {
+      "name": "pull_to_refresh_pull",
+      "value": "引っ張って更新"
+    },
+    {
+      "name": "pull_to_refresh_release",
+      "value": "離して更新"
+    },
+    {
+      "name": "pull_to_refresh_refreshing",
+      "value": "更新中…"
+    },
+    {
+      "name": "pull_to_refresh_done",
+      "value": "更新しました"
+    },
+    {
+      "name": "register_web_hint",
+      "value": "登録には captcha が必要なため、下に公式の登録ページを埋め込んでいます。ページで登録またはログインすると自動でログインします。うまくいかない場合は「ログイン」タブをご利用ください。"
+    },
+    {
+      "name": "register_web_open_browser",
+      "value": "ブラウザで開く"
+    },
+    {
+      "name": "register_web_failed",
+      "value": "登録ページの読み込みに失敗しました：%s"
+    },
+    {
+      "name": "register_web_no_webview",
+      "value": "この端末には利用可能なシステム WebView がないため、アプリ内で登録ページを開けません"
+    },
+    {
+      "name": "open_browser_failed",
+      "value": "ブラウザを開けません。手動でアクセスしてください：%s"
+    },
+    {
+      "name": "action_retry",
+      "value": "再試行"
+    },
+    {
+      "name": "mine_signed_in_title",
+      "value": "ログイン済み"
+    }
+  ]
+}

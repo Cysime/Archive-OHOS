@@ -1,0 +1,600 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "Archive HarmonyOS NEXT 客户端主模块"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "Archive 主界面"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "Archive"
+    },
+    {
+      "name": "app_name",
+      "value": "Archive"
+    },
+    {
+      "name": "language_section",
+      "value": "Bahasa"
+    },
+    {
+      "name": "language_title",
+      "value": "Bahasa antarmuka"
+    },
+    {
+      "name": "language_summary",
+      "value": "Hanya memengaruhi menu dan teks pengaturan aplikasi; konten kiriman tidak diterjemahkan. Langsung berlaku."
+    },
+    {
+      "name": "language_system",
+      "value": "Ikuti sistem"
+    },
+    {
+      "name": "nav_home",
+      "value": "Beranda"
+    },
+    {
+      "name": "nav_discover",
+      "value": "Jelajah"
+    },
+    {
+      "name": "nav_favorites",
+      "value": "Favorit"
+    },
+    {
+      "name": "nav_mine",
+      "value": "Saya"
+    },
+    {
+      "name": "ai_switch_deep",
+      "value": "Berpikir mendalam"
+    },
+    {
+      "name": "ai_switch_deep_summary",
+      "value": "Berpikir dulu sebelum menjawab, cocok untuk teks panjang. Jika mati, tidak ada bidang berpikir yang dikirim"
+    },
+    {
+      "name": "ai_switch_web",
+      "value": "Penelusuran web"
+    },
+    {
+      "name": "ai_switch_web_summary",
+      "value": "Berguna untuk menanyakan karya apa itu pada gambar; jarang dibutuhkan untuk terjemahan"
+    },
+    {
+      "name": "ai_thinking_level",
+      "value": "Tingkat berpikir"
+    },
+    {
+      "name": "ai_thinking_level_summary",
+      "value": "reasoning_effort (OpenAI) / thinking_budget (Qwen); perlu berpikir mendalam"
+    },
+    {
+      "name": "ai_thinking_low",
+      "value": "Rendah (lebih cepat)"
+    },
+    {
+      "name": "ai_thinking_middle",
+      "value": "Sedang (bawaan)"
+    },
+    {
+      "name": "ai_thinking_high",
+      "value": "Tinggi (lebih dalam)"
+    },
+    {
+      "name": "profile_edit",
+      "value": "Ubah"
+    },
+    {
+      "name": "profile_delete",
+      "value": "Hapus"
+    },
+    {
+      "name": "profile_add",
+      "value": "Tambah profil"
+    },
+    {
+      "name": "profile_editor_edit",
+      "value": "Ubah profil"
+    },
+    {
+      "name": "profile_no_model",
+      "value": "(model belum diisi)"
+    },
+    {
+      "name": "profile_field_name",
+      "value": "Nama (mis. Zhipu)"
+    },
+    {
+      "name": "profile_field_url",
+      "value": "URL endpoint"
+    },
+    {
+      "name": "profile_field_key",
+      "value": "Kunci API (kosongkan untuk server sendiri)"
+    },
+    {
+      "name": "profile_field_model",
+      "value": "Model (dipakai untuk tugas yang ditetapkan)"
+    },
+    {
+      "name": "profile_field_show",
+      "value": "Tampilkan"
+    },
+    {
+      "name": "profile_field_hide",
+      "value": "Sembunyikan"
+    },
+    {
+      "name": "profile_invalid",
+      "value": "Nama, URL, dan model wajib diisi"
+    },
+    {
+      "name": "action_save",
+      "value": "Simpan"
+    },
+    {
+      "name": "action_cancel",
+      "value": "Batal"
+    },
+    {
+      "name": "ai_settings_title",
+      "value": "Terjemahan kiriman"
+    },
+    {
+      "name": "ai_overview_title",
+      "value": "Endpoint AI"
+    },
+    {
+      "name": "ai_overview_summary",
+      "value": "Setiap keperluan dapat memakai model dari platform berbeda; prompt, sampling, dan sakelar berpikir berlaku untuk semua profil."
+    },
+    {
+      "name": "status_configured",
+      "value": "Sudah dikonfigurasi"
+    },
+    {
+      "name": "status_pending",
+      "value": "Belum dikonfigurasi"
+    },
+    {
+      "name": "section_profiles",
+      "value": "Profil model"
+    },
+    {
+      "name": "profiles_empty",
+      "value": "Belum ada profil. Ketuk \"Tambah profil\" untuk menghubungkan platform."
+    },
+    {
+      "name": "section_purposes",
+      "value": "Penetapan keperluan"
+    },
+    {
+      "name": "purposes_empty",
+      "value": "Tambahkan profil dulu, lalu tetapkan untuk tiap keperluan."
+    },
+    {
+      "name": "purpose_translation",
+      "value": "Terjemahan kiriman"
+    },
+    {
+      "name": "purpose_translation_summary",
+      "value": "Terjemahkan judul dan isi"
+    },
+    {
+      "name": "purpose_vision",
+      "value": "Pemahaman gambar (ringkasan / tanya jawab)"
+    },
+    {
+      "name": "purpose_vision_summary",
+      "value": "Ringkasan AI dan tanya jawab gambar"
+    },
+    {
+      "name": "purpose_placeholder",
+      "value": "(tambahkan profil dulu)"
+    },
+    {
+      "name": "auto_translate",
+      "value": "Terjemahan otomatis"
+    },
+    {
+      "name": "auto_translate_summary",
+      "value": "Mulai menerjemahkan saat kiriman dibuka (memakai profil Terjemahan kiriman); jika mati, ketuk \"Tampilkan terjemahan\"."
+    },
+    {
+      "name": "section_test",
+      "value": "Uji"
+    },
+    {
+      "name": "test_summary",
+      "value": "\"Uji koneksi\" memakai profil terjemahan, \"Uji gambar\" memakai profil gambar; jalankan setelah mengganti endpoint atau model."
+    },
+    {
+      "name": "test_running",
+      "value": "Menguji…"
+    },
+    {
+      "name": "test_connection",
+      "value": "Uji koneksi"
+    },
+    {
+      "name": "test_vision",
+      "value": "Uji gambar"
+    },
+    {
+      "name": "section_thinking",
+      "value": "Penalaran dan web"
+    },
+    {
+      "name": "section_prompt",
+      "value": "Prompt"
+    },
+    {
+      "name": "prompt_label",
+      "value": "Prompt sistem"
+    },
+    {
+      "name": "prompt_hint",
+      "value": "Dikirim sebagai pesan sistem: atur bahasa dan gaya di sini"
+    },
+    {
+      "name": "section_sampling",
+      "value": "Sampling"
+    },
+    {
+      "name": "sampling_temperature",
+      "value": "Suhu"
+    },
+    {
+      "name": "sampling_temperature_summary",
+      "value": "temperature · 0–2, lebih rendah lebih stabil"
+    },
+    {
+      "name": "sampling_top_p",
+      "value": "Top-p"
+    },
+    {
+      "name": "sampling_top_p_summary",
+      "value": "top_p · 0–1"
+    },
+    {
+      "name": "sampling_max_tokens",
+      "value": "Keluaran maksimum"
+    },
+    {
+      "name": "sampling_max_tokens_summary",
+      "value": "max_tokens · 128–8192, pakai 2400+ untuk teks panjang"
+    },
+    {
+      "name": "sampling_freq",
+      "value": "Penalti frekuensi"
+    },
+    {
+      "name": "sampling_freq_summary",
+      "value": "frequency_penalty · -2–2"
+    },
+    {
+      "name": "sampling_pres",
+      "value": "Penalti kehadiran"
+    },
+    {
+      "name": "sampling_pres_summary",
+      "value": "presence_penalty · -2–2"
+    },
+    {
+      "name": "field_api_type",
+      "value": "Tipe API"
+    },
+    {
+      "name": "test_ok_no_switches",
+      "value": "Koneksi OK · %dms · penalaran dan web mati · \"%s\""
+    },
+    {
+      "name": "test_ok_with_switches",
+      "value": "Koneksi OK · %dms · terkirim %s · \"%s\""
+    },
+    {
+      "name": "test_warn_no_reasoning",
+      "value": "; respons tidak memuat reasoning_content — endpoint mungkin mengabaikan penalaran mendalam"
+    },
+    {
+      "name": "test_warn_no_search",
+      "value": "; respons tidak memuat info penelusuran"
+    },
+    {
+      "name": "test_failed",
+      "value": "Gagal: %s"
+    },
+    {
+      "name": "test_switches_hint",
+      "value": "(Parameter dikirim sesuai sakelar penalaran dan web; matikan lalu uji lagi)"
+    },
+    {
+      "name": "vision_ok",
+      "value": "Gambar OK · %dms · terbaca \"%s\""
+    },
+    {
+      "name": "vision_failed_unmatched",
+      "value": "Koneksi berhasil, tetapi angka uji %s tidak terbaca (respons \"%s\"): model mungkin tidak mendukung gambar"
+    },
+    {
+      "name": "post_detail_title",
+      "value": "Detail kiriman"
+    },
+    {
+      "name": "save_all_images",
+      "value": "Simpan semua gambar"
+    },
+    {
+      "name": "favorite",
+      "value": "Favorit"
+    },
+    {
+      "name": "unfavorite",
+      "value": "Hapus favorit"
+    },
+    {
+      "name": "share_post",
+      "value": "Bagikan kiriman"
+    },
+    {
+      "name": "author_avatar",
+      "value": "Avatar penulis"
+    },
+    {
+      "name": "subscribe",
+      "value": "Ikuti"
+    },
+    {
+      "name": "subscribed",
+      "value": "Diikuti"
+    },
+    {
+      "name": "preview_only_notice",
+      "value": "File ini ditandai preview_only oleh situs: tanpa masuk hanya ada pratinjau; file asli butuh sesi yang valid."
+    },
+    {
+      "name": "cd_comments",
+      "value": "Komentar"
+    },
+    {
+      "name": "cd_attachments",
+      "value": "Lampiran"
+    },
+    {
+      "name": "cd_share",
+      "value": "Bagikan"
+    },
+    {
+      "name": "section_attachments",
+      "value": "Lampiran (%d)"
+    },
+    {
+      "name": "external_links",
+      "value": "Tautan eksternal"
+    },
+    {
+      "name": "section_comments",
+      "value": "Komentar (%d)"
+    },
+    {
+      "name": "section_revisions",
+      "value": "Riwayat revisi (%d)"
+    },
+    {
+      "name": "revision_title",
+      "value": "Revisi #%s · %s"
+    },
+    {
+      "name": "revision_no_title",
+      "value": "(tanpa judul)"
+    },
+    {
+      "name": "revision_edited",
+      "value": "Diedit %s"
+    },
+    {
+      "name": "revision_published",
+      "value": "Diterbitkan %s"
+    },
+    {
+      "name": "prev_post",
+      "value": "Sebelumnya"
+    },
+    {
+      "name": "next_post",
+      "value": "Berikutnya"
+    },
+    {
+      "name": "share_image",
+      "value": "Bagikan gambar"
+    },
+    {
+      "name": "save_original",
+      "value": "Simpan asli"
+    },
+    {
+      "name": "save_all_originals",
+      "value": "Simpan semua asli"
+    },
+    {
+      "name": "copy_image_link",
+      "value": "Salin tautan gambar"
+    },
+    {
+      "name": "image_link",
+      "value": "Tautan gambar"
+    },
+    {
+      "name": "open_external_link",
+      "value": "Buka tautan eksternal"
+    },
+    {
+      "name": "action_open",
+      "value": "Buka"
+    },
+    {
+      "name": "cd_open_link",
+      "value": "Buka tautan"
+    },
+    {
+      "name": "attachment_image",
+      "value": "Gambar lampiran"
+    },
+    {
+      "name": "download_named",
+      "value": "Unduh %s"
+    },
+    {
+      "name": "link_expired_long",
+      "value": "Tautan putar/unduh sementara sudah kedaluwarsa (tautan situs berlaku sekitar 30 hari): buka ulang atau segarkan kiriman ini."
+    },
+    {
+      "name": "link_preview_only_long",
+      "value": "Situs hanya menyimpan pratinjau (preview_only): file asli belum diimpor atau butuh sesi masuk; pemutaran dan unduhan bisa gagal."
+    },
+    {
+      "name": "link_deferred_long",
+      "value": "Situs belum mengimpor file asli (deferred): belum ada alamat, segarkan nanti."
+    },
+    {
+      "name": "download_add_failed",
+      "value": "Gagal menambahkan unduhan: %s"
+    },
+    {
+      "name": "unknown_error",
+      "value": "Kesalahan tidak dikenal"
+    },
+    {
+      "name": "load_failed",
+      "value": "Gagal memuat: %s"
+    },
+    {
+      "name": "network_error",
+      "value": "Kesalahan jaringan"
+    },
+    {
+      "name": "link_expired_short",
+      "value": "Tautan sementara kedaluwarsa; buka ulang kiriman"
+    },
+    {
+      "name": "no_original_short",
+      "value": "Situs belum mengimpor file asli, belum ada tautan unduh"
+    },
+    {
+      "name": "open_link_prompt",
+      "value": "Aplikasi akan keluar untuk membuka:\n%s"
+    },
+    {
+      "name": "mine_signed_in",
+      "value": "Sudah masuk · favorit cloud tersinkron"
+    },
+    {
+      "name": "mine_not_signed_in",
+      "value": "Belum masuk"
+    },
+    {
+      "name": "mine_sign_in_hint",
+      "value": "Ketuk untuk masuk dan sinkronkan favorit serta file asli"
+    },
+    {
+      "name": "mine_messages",
+      "value": "Notifikasi"
+    },
+    {
+      "name": "mine_storage",
+      "value": "Penyimpanan"
+    },
+    {
+      "name": "mine_downloads",
+      "value": "Unduhan"
+    },
+    {
+      "name": "mine_history",
+      "value": "Riwayat penjelajahan"
+    },
+    {
+      "name": "mine_settings",
+      "value": "Pengaturan"
+    },
+    {
+      "name": "mine_about",
+      "value": "Tentang Archive"
+    },
+    {
+      "name": "mine_help",
+      "value": "Bantuan dan masukan"
+    },
+    {
+      "name": "mine_subscription_summary",
+      "value": "Mengikuti %d kreator"
+    },
+    {
+      "name": "history_clear",
+      "value": "Hapus riwayat penjelajahan"
+    },
+    {
+      "name": "history_clear_summary",
+      "value": "Menghapus semua riwayat penjelajahan di perangkat ini. Tidak dapat dibatalkan."
+    },
+    {
+      "name": "history_clear_confirm",
+      "value": "Hapus"
+    },
+    {
+      "name": "history_empty",
+      "value": "Belum ada riwayat"
+    },
+    {
+      "name": "history_local_only",
+      "value": "Hanya tersimpan di perangkat ini"
+    },
+    {
+      "name": "pull_to_refresh_pull",
+      "value": "Tarik untuk menyegarkan"
+    },
+    {
+      "name": "pull_to_refresh_release",
+      "value": "Lepaskan untuk menyegarkan"
+    },
+    {
+      "name": "pull_to_refresh_refreshing",
+      "value": "Menyegarkan…"
+    },
+    {
+      "name": "pull_to_refresh_done",
+      "value": "Berhasil disegarkan"
+    },
+    {
+      "name": "register_web_hint",
+      "value": "Pendaftaran memerlukan captcha, jadi halaman resmi disematkan di bawah. Daftar atau masuk di sana dan aplikasi akan masuk otomatis; jika tidak, gunakan tab Masuk."
+    },
+    {
+      "name": "register_web_open_browser",
+      "value": "Buka di browser"
+    },
+    {
+      "name": "register_web_failed",
+      "value": "Gagal memuat halaman pendaftaran: %s"
+    },
+    {
+      "name": "register_web_no_webview",
+      "value": "Perangkat ini tidak memiliki WebView sistem yang dapat dipakai, jadi halaman pendaftaran tidak bisa dibuka di dalam aplikasi"
+    },
+    {
+      "name": "open_browser_failed",
+      "value": "Tidak dapat membuka browser. Kunjungi manual: %s"
+    },
+    {
+      "name": "action_retry",
+      "value": "Coba lagi"
+    },
+    {
+      "name": "mine_signed_in_title",
+      "value": "Sudah masuk"
+    }
+  ]
+}

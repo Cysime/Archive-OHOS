@@ -1,0 +1,600 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "Archive HarmonyOS NEXT 客户端主模块"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "Archive 主界面"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "Archive"
+    },
+    {
+      "name": "app_name",
+      "value": "Archive"
+    },
+    {
+      "name": "language_section",
+      "value": "언어"
+    },
+    {
+      "name": "language_title",
+      "value": "인터페이스 언어"
+    },
+    {
+      "name": "language_summary",
+      "value": "앱의 메뉴와 설정 텍스트에만 적용됩니다. 게시물 내용은 번역되지 않습니다. 즉시 적용됩니다."
+    },
+    {
+      "name": "language_system",
+      "value": "시스템 설정 따르기"
+    },
+    {
+      "name": "nav_home",
+      "value": "홈"
+    },
+    {
+      "name": "nav_discover",
+      "value": "발견"
+    },
+    {
+      "name": "nav_favorites",
+      "value": "즐겨찾기"
+    },
+    {
+      "name": "nav_mine",
+      "value": "마이"
+    },
+    {
+      "name": "ai_switch_deep",
+      "value": "깊은 사고"
+    },
+    {
+      "name": "ai_switch_deep_summary",
+      "value": "먼저 추론한 뒤 답변합니다. 긴 글에 적합합니다. 끄면 관련 필드를 보내지 않습니다"
+    },
+    {
+      "name": "ai_switch_web",
+      "value": "웹 검색"
+    },
+    {
+      "name": "ai_switch_web_summary",
+      "value": "이미지에 대해 어떤 작품인지 물을 때 유용합니다. 번역에는 보통 필요 없습니다"
+    },
+    {
+      "name": "ai_thinking_level",
+      "value": "사고 수준"
+    },
+    {
+      "name": "ai_thinking_level_summary",
+      "value": "reasoning_effort(OpenAI) / thinking_budget(Qwen). 먼저 깊은 사고를 켜야 합니다"
+    },
+    {
+      "name": "ai_thinking_low",
+      "value": "낮음(빠름)"
+    },
+    {
+      "name": "ai_thinking_middle",
+      "value": "중간(기본)"
+    },
+    {
+      "name": "ai_thinking_high",
+      "value": "높음(더 깊게)"
+    },
+    {
+      "name": "profile_edit",
+      "value": "편집"
+    },
+    {
+      "name": "profile_delete",
+      "value": "삭제"
+    },
+    {
+      "name": "profile_add",
+      "value": "프로필 추가"
+    },
+    {
+      "name": "profile_editor_edit",
+      "value": "프로필 편집"
+    },
+    {
+      "name": "profile_no_model",
+      "value": "(모델 미입력)"
+    },
+    {
+      "name": "profile_field_name",
+      "value": "이름(예: Zhipu)"
+    },
+    {
+      "name": "profile_field_url",
+      "value": "엔드포인트 URL"
+    },
+    {
+      "name": "profile_field_key",
+      "value": "API 키(자체 서버는 비워도 됨)"
+    },
+    {
+      "name": "profile_field_model",
+      "value": "모델(이 프로필이 할당된 용도에 사용됩니다)"
+    },
+    {
+      "name": "profile_field_show",
+      "value": "표시"
+    },
+    {
+      "name": "profile_field_hide",
+      "value": "숨기기"
+    },
+    {
+      "name": "profile_invalid",
+      "value": "이름, 엔드포인트 URL, 모델은 필수입니다"
+    },
+    {
+      "name": "action_save",
+      "value": "저장"
+    },
+    {
+      "name": "action_cancel",
+      "value": "취소"
+    },
+    {
+      "name": "ai_settings_title",
+      "value": "게시물 번역"
+    },
+    {
+      "name": "ai_overview_title",
+      "value": "AI 엔드포인트"
+    },
+    {
+      "name": "ai_overview_summary",
+      "value": "용도마다 다른 플랫폼의 모델을 지정할 수 있습니다. 프롬프트, 샘플링, 사고 스위치는 모든 프로필에 공통 적용됩니다."
+    },
+    {
+      "name": "status_configured",
+      "value": "설정됨"
+    },
+    {
+      "name": "status_pending",
+      "value": "설정 안 됨"
+    },
+    {
+      "name": "section_profiles",
+      "value": "모델 프로필"
+    },
+    {
+      "name": "profiles_empty",
+      "value": "프로필이 없습니다. \"프로필 추가\"로 연결하세요."
+    },
+    {
+      "name": "section_purposes",
+      "value": "용도 지정"
+    },
+    {
+      "name": "purposes_empty",
+      "value": "먼저 프로필을 추가한 뒤 각 용도에 지정하세요."
+    },
+    {
+      "name": "purpose_translation",
+      "value": "게시물 번역"
+    },
+    {
+      "name": "purpose_translation_summary",
+      "value": "게시물 제목과 본문 번역"
+    },
+    {
+      "name": "purpose_vision",
+      "value": "이미지 이해(요약 / 질문)"
+    },
+    {
+      "name": "purpose_vision_summary",
+      "value": "AI 요약 및 이미지 Q&A"
+    },
+    {
+      "name": "purpose_placeholder",
+      "value": "(먼저 프로필 추가)"
+    },
+    {
+      "name": "auto_translate",
+      "value": "자동 번역"
+    },
+    {
+      "name": "auto_translate_summary",
+      "value": "게시물을 열면 자동으로 번역합니다(게시물 번역 프로필 사용). 끄면 본문 아래 \"번역 보기\"를 누르세요."
+    },
+    {
+      "name": "section_test",
+      "value": "테스트"
+    },
+    {
+      "name": "test_summary",
+      "value": "\"연결 테스트\"는 번역 프로필, \"이미지 테스트\"는 이미지 프로필을 사용합니다. 엔드포인트나 모델을 바꾼 뒤 여기서 확인하세요."
+    },
+    {
+      "name": "test_running",
+      "value": "테스트 중…"
+    },
+    {
+      "name": "test_connection",
+      "value": "연결 테스트"
+    },
+    {
+      "name": "test_vision",
+      "value": "이미지 테스트"
+    },
+    {
+      "name": "section_thinking",
+      "value": "추론 및 웹"
+    },
+    {
+      "name": "section_prompt",
+      "value": "프롬프트"
+    },
+    {
+      "name": "prompt_label",
+      "value": "시스템 프롬프트"
+    },
+    {
+      "name": "prompt_hint",
+      "value": "system 메시지로 전송됩니다. 언어와 어조를 여기서 지정합니다"
+    },
+    {
+      "name": "section_sampling",
+      "value": "샘플링"
+    },
+    {
+      "name": "sampling_temperature",
+      "value": "온도"
+    },
+    {
+      "name": "sampling_temperature_summary",
+      "value": "temperature · 0–2, 낮을수록 안정적"
+    },
+    {
+      "name": "sampling_top_p",
+      "value": "탑p"
+    },
+    {
+      "name": "sampling_top_p_summary",
+      "value": "top_p · 0–1"
+    },
+    {
+      "name": "sampling_max_tokens",
+      "value": "최대 출력"
+    },
+    {
+      "name": "sampling_max_tokens_summary",
+      "value": "max_tokens · 128–8192, 긴 글 번역은 2400 이상 권장"
+    },
+    {
+      "name": "sampling_freq",
+      "value": "빈도 패널티"
+    },
+    {
+      "name": "sampling_freq_summary",
+      "value": "frequency_penalty · -2–2"
+    },
+    {
+      "name": "sampling_pres",
+      "value": "존재 패널티"
+    },
+    {
+      "name": "sampling_pres_summary",
+      "value": "presence_penalty · -2–2"
+    },
+    {
+      "name": "field_api_type",
+      "value": "API 유형"
+    },
+    {
+      "name": "test_ok_no_switches",
+      "value": "연결 정상 · %dms · 추론 및 웹 꺼짐 · \"%s\""
+    },
+    {
+      "name": "test_ok_with_switches",
+      "value": "연결 정상 · %dms · 전송됨 %s · \"%s\""
+    },
+    {
+      "name": "test_warn_no_reasoning",
+      "value": "; 응답에 reasoning_content가 없습니다. 엔드포인트가 깊은 사고를 무시했을 수 있습니다"
+    },
+    {
+      "name": "test_warn_no_search",
+      "value": "; 응답에 검색 정보가 없습니다(회사마다 다릅니다)"
+    },
+    {
+      "name": "test_failed",
+      "value": "실패: %s"
+    },
+    {
+      "name": "test_switches_hint",
+      "value": "(추론 및 웹 스위치에 따라 파라미터를 전송했습니다. 끄고 다시 테스트해 보세요)"
+    },
+    {
+      "name": "vision_ok",
+      "value": "이미지 정상 · %dms · 읽음 \"%s\""
+    },
+    {
+      "name": "vision_failed_unmatched",
+      "value": "연결은 되었지만 테스트 숫자 %s을(를) 읽지 못했습니다(응답 \"%s\"). 이 모델은 이미지를 지원하지 않을 수 있습니다"
+    },
+    {
+      "name": "post_detail_title",
+      "value": "게시물 상세"
+    },
+    {
+      "name": "save_all_images",
+      "value": "모든 이미지 저장"
+    },
+    {
+      "name": "favorite",
+      "value": "즐겨찾기"
+    },
+    {
+      "name": "unfavorite",
+      "value": "즐겨찾기 해제"
+    },
+    {
+      "name": "share_post",
+      "value": "게시물 공유"
+    },
+    {
+      "name": "author_avatar",
+      "value": "작성자 아이콘"
+    },
+    {
+      "name": "subscribe",
+      "value": "구독"
+    },
+    {
+      "name": "subscribed",
+      "value": "구독 중"
+    },
+    {
+      "name": "preview_only_notice",
+      "value": "이 파일은 사이트에서 preview_only로 표시됩니다. 로그아웃 상태에서는 미리보기만 제공되며 원본은 유효한 세션이 필요합니다."
+    },
+    {
+      "name": "cd_comments",
+      "value": "댓글"
+    },
+    {
+      "name": "cd_attachments",
+      "value": "첨부"
+    },
+    {
+      "name": "cd_share",
+      "value": "공유"
+    },
+    {
+      "name": "section_attachments",
+      "value": "첨부(%d)"
+    },
+    {
+      "name": "external_links",
+      "value": "외부 링크"
+    },
+    {
+      "name": "section_comments",
+      "value": "댓글(%d)"
+    },
+    {
+      "name": "section_revisions",
+      "value": "개정 이력(%d)"
+    },
+    {
+      "name": "revision_title",
+      "value": "개정 #%s · %s"
+    },
+    {
+      "name": "revision_no_title",
+      "value": "(제목 없음)"
+    },
+    {
+      "name": "revision_edited",
+      "value": "편집 %s"
+    },
+    {
+      "name": "revision_published",
+      "value": "게시 %s"
+    },
+    {
+      "name": "prev_post",
+      "value": "이전 글"
+    },
+    {
+      "name": "next_post",
+      "value": "다음 글"
+    },
+    {
+      "name": "share_image",
+      "value": "이미지 공유"
+    },
+    {
+      "name": "save_original",
+      "value": "원본 저장"
+    },
+    {
+      "name": "save_all_originals",
+      "value": "모든 원본 저장"
+    },
+    {
+      "name": "copy_image_link",
+      "value": "이미지 링크 복사"
+    },
+    {
+      "name": "image_link",
+      "value": "이미지 링크"
+    },
+    {
+      "name": "open_external_link",
+      "value": "외부 링크 열기"
+    },
+    {
+      "name": "action_open",
+      "value": "열기"
+    },
+    {
+      "name": "cd_open_link",
+      "value": "링크 열기"
+    },
+    {
+      "name": "attachment_image",
+      "value": "첨부 이미지"
+    },
+    {
+      "name": "download_named",
+      "value": "%s 다운로드"
+    },
+    {
+      "name": "link_expired_long",
+      "value": "임시 재생/다운로드 링크가 만료되었습니다(사이트 링크는 약 30일 유효). 게시물을 다시 열거나 새로고침하세요."
+    },
+    {
+      "name": "link_preview_only_long",
+      "value": "사이트에 미리보기만 있습니다(preview_only). 원본이 아직 없거나 로그인 세션이 필요해 재생과 다운로드가 실패할 수 있습니다."
+    },
+    {
+      "name": "link_deferred_long",
+      "value": "사이트에 원본이 아직 없습니다(deferred). 주소가 없으니 나중에 새로고침하세요."
+    },
+    {
+      "name": "download_add_failed",
+      "value": "다운로드 추가 실패: %s"
+    },
+    {
+      "name": "unknown_error",
+      "value": "알 수 없는 오류"
+    },
+    {
+      "name": "load_failed",
+      "value": "불러오기 실패: %s"
+    },
+    {
+      "name": "network_error",
+      "value": "네트워크 오류"
+    },
+    {
+      "name": "link_expired_short",
+      "value": "임시 링크가 만료되었습니다. 게시물을 다시 열어 주세요"
+    },
+    {
+      "name": "no_original_short",
+      "value": "사이트에 원본이 없어 다운로드 주소가 없습니다"
+    },
+    {
+      "name": "open_link_prompt",
+      "value": "앱을 나가서 엽니다:\n%s"
+    },
+    {
+      "name": "mine_signed_in",
+      "value": "로그인됨 · 클라우드 즐겨찾기 동기화됨"
+    },
+    {
+      "name": "mine_not_signed_in",
+      "value": "로그인 안 됨"
+    },
+    {
+      "name": "mine_sign_in_hint",
+      "value": "탭하여 로그인하고 클라우드 즐겨찾기와 원본을 동기화"
+    },
+    {
+      "name": "mine_messages",
+      "value": "알림"
+    },
+    {
+      "name": "mine_storage",
+      "value": "저장 공간"
+    },
+    {
+      "name": "mine_downloads",
+      "value": "다운로드"
+    },
+    {
+      "name": "mine_history",
+      "value": "방문 기록"
+    },
+    {
+      "name": "mine_settings",
+      "value": "설정"
+    },
+    {
+      "name": "mine_about",
+      "value": "Archive 정보"
+    },
+    {
+      "name": "mine_help",
+      "value": "도움말 및 피드백"
+    },
+    {
+      "name": "mine_subscription_summary",
+      "value": "%d명 구독 중"
+    },
+    {
+      "name": "history_clear",
+      "value": "방문 기록 지우기"
+    },
+    {
+      "name": "history_clear_summary",
+      "value": "이 기기에 저장된 모든 방문 기록을 삭제합니다. 되돌릴 수 없습니다."
+    },
+    {
+      "name": "history_clear_confirm",
+      "value": "지우기"
+    },
+    {
+      "name": "history_empty",
+      "value": "방문 기록이 없습니다"
+    },
+    {
+      "name": "history_local_only",
+      "value": "이 기기에만 저장됩니다"
+    },
+    {
+      "name": "pull_to_refresh_pull",
+      "value": "아래로 당겨 새로 고침"
+    },
+    {
+      "name": "pull_to_refresh_release",
+      "value": "놓아서 새로 고침"
+    },
+    {
+      "name": "pull_to_refresh_refreshing",
+      "value": "새로 고침 중…"
+    },
+    {
+      "name": "pull_to_refresh_done",
+      "value": "새로 고침 완료"
+    },
+    {
+      "name": "register_web_hint",
+      "value": "가입에는 captcha가 필요해 아래에 공식 가입 페이지를 삽입했습니다. 페이지에서 가입하거나 로그인하면 앱이 자동으로 로그인합니다. 안 되면 「로그인」 탭을 이용하세요."
+    },
+    {
+      "name": "register_web_open_browser",
+      "value": "브라우저에서 열기"
+    },
+    {
+      "name": "register_web_failed",
+      "value": "가입 페이지를 불러오지 못했습니다: %s"
+    },
+    {
+      "name": "register_web_no_webview",
+      "value": "이 기기에는 사용할 수 있는 시스템 WebView가 없어 앱 안에서 가입 페이지를 열 수 없습니다"
+    },
+    {
+      "name": "open_browser_failed",
+      "value": "브라우저를 열 수 없습니다. 직접 접속하세요: %s"
+    },
+    {
+      "name": "action_retry",
+      "value": "다시 시도"
+    },
+    {
+      "name": "mine_signed_in_title",
+      "value": "로그인됨"
+    }
+  ]
+}

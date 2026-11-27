@@ -1,0 +1,600 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "Archive HarmonyOS NEXT 客户端主模块"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "Archive 主界面"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "Archive"
+    },
+    {
+      "name": "app_name",
+      "value": "Archive"
+    },
+    {
+      "name": "language_section",
+      "value": "اللغة"
+    },
+    {
+      "name": "language_title",
+      "value": "لغة الواجهة"
+    },
+    {
+      "name": "language_summary",
+      "value": "تؤثر فقط في قوائم التطبيق ونصوص الإعدادات؛ لا يُترجم محتوى المنشورات. تُطبَّق فورًا."
+    },
+    {
+      "name": "language_system",
+      "value": "الافتراضي في النظام"
+    },
+    {
+      "name": "nav_home",
+      "value": "الرئيسية"
+    },
+    {
+      "name": "nav_discover",
+      "value": "استكشاف"
+    },
+    {
+      "name": "nav_favorites",
+      "value": "المفضلة"
+    },
+    {
+      "name": "nav_mine",
+      "value": "أنا"
+    },
+    {
+      "name": "ai_switch_deep",
+      "value": "تفكير عميق"
+    },
+    {
+      "name": "ai_switch_deep_summary",
+      "value": "فكّر أولًا، أفضل للنصوص الطويلة. عند الإيقاف لا تُرسَل أي حقول متعلقة بالتفكير"
+    },
+    {
+      "name": "ai_switch_web",
+      "value": "بحث الويب"
+    },
+    {
+      "name": "ai_switch_web_summary",
+      "value": "مفيد لسؤال «ما هذا العمل» حول صورة؛ نادرًا ما يلزم في الترجمة"
+    },
+    {
+      "name": "ai_thinking_level",
+      "value": "مستوى التفكير"
+    },
+    {
+      "name": "ai_thinking_level_summary",
+      "value": "OpenAI reasoning_effort / Qwen thinking_budget؛ يتطلب التفكير العميق"
+    },
+    {
+      "name": "ai_thinking_low",
+      "value": "منخفض (أسرع)"
+    },
+    {
+      "name": "ai_thinking_middle",
+      "value": "متوسط (افتراضي)"
+    },
+    {
+      "name": "ai_thinking_high",
+      "value": "عالٍ (أعمق)"
+    },
+    {
+      "name": "profile_edit",
+      "value": "تعديل"
+    },
+    {
+      "name": "profile_delete",
+      "value": "حذف"
+    },
+    {
+      "name": "profile_add",
+      "value": "إضافة ملف"
+    },
+    {
+      "name": "profile_editor_edit",
+      "value": "تعديل الملف"
+    },
+    {
+      "name": "profile_no_model",
+      "value": "(لا نموذج)"
+    },
+    {
+      "name": "profile_field_name",
+      "value": "الاسم (مثال Zhipu)"
+    },
+    {
+      "name": "profile_field_url",
+      "value": "عنوان نقطة النهاية"
+    },
+    {
+      "name": "profile_field_key",
+      "value": "مفتاح API (اتركه فارغًا للاستضافة الذاتية)"
+    },
+    {
+      "name": "profile_field_model",
+      "value": "النموذج (يخدم المهمة المُسند إليها هذا الملف)"
+    },
+    {
+      "name": "profile_field_show",
+      "value": "إظهار"
+    },
+    {
+      "name": "profile_field_hide",
+      "value": "إخفاء"
+    },
+    {
+      "name": "profile_invalid",
+      "value": "الاسم وعنوان نقطة النهاية والنموذج مطلوبة"
+    },
+    {
+      "name": "action_save",
+      "value": "حفظ"
+    },
+    {
+      "name": "action_cancel",
+      "value": "إلغاء"
+    },
+    {
+      "name": "ai_settings_title",
+      "value": "ترجمة المنشور"
+    },
+    {
+      "name": "ai_overview_title",
+      "value": "نقطة نهاية AI"
+    },
+    {
+      "name": "ai_overview_summary",
+      "value": "يمكن لكل مهمة استخدام نموذج من منصة مختلفة؛ ينطبق الموجه وإعدادات العينات ومفاتيح التفكير على جميع الملفات."
+    },
+    {
+      "name": "status_configured",
+      "value": "مهيّأ"
+    },
+    {
+      "name": "status_pending",
+      "value": "غير مهيّأ"
+    },
+    {
+      "name": "section_profiles",
+      "value": "ملفات النماذج"
+    },
+    {
+      "name": "profiles_empty",
+      "value": "لا توجد ملفات بعد. انقر «إضافة ملف» لربط منصة."
+    },
+    {
+      "name": "section_purposes",
+      "value": "إسناد المهام"
+    },
+    {
+      "name": "purposes_empty",
+      "value": "أضف ملفًا أولًا ثم أسند واحدًا إلى كل مهمة."
+    },
+    {
+      "name": "purpose_translation",
+      "value": "ترجمة المنشور"
+    },
+    {
+      "name": "purpose_translation_summary",
+      "value": "ترجمة عنوان المنشور ونصّه"
+    },
+    {
+      "name": "purpose_vision",
+      "value": "فهم الصور (ملخص / سؤال وجواب)"
+    },
+    {
+      "name": "purpose_vision_summary",
+      "value": "ملخص AI وسؤال وجواب حول الصور"
+    },
+    {
+      "name": "purpose_placeholder",
+      "value": "(أضف ملفًا أولًا)"
+    },
+    {
+      "name": "auto_translate",
+      "value": "ترجمة تلقائية"
+    },
+    {
+      "name": "auto_translate_summary",
+      "value": "تبدأ الترجمة عند فتح منشور (تستخدم الملف المُسند إلى ترجمة المنشور)؛ عند الإيقاف انقر «إظهار الترجمة» أسفل النص."
+    },
+    {
+      "name": "section_test",
+      "value": "اختبار"
+    },
+    {
+      "name": "test_summary",
+      "value": "«اختبار الاتصال» يستخدم ملف الترجمة و«اختبار الرؤية» يستخدم ملف الصور؛ نفّذها بعد تبديل النقاط أو النماذج."
+    },
+    {
+      "name": "test_running",
+      "value": "جارٍ الاختبار…"
+    },
+    {
+      "name": "test_connection",
+      "value": "اختبار الاتصال"
+    },
+    {
+      "name": "test_vision",
+      "value": "اختبار الرؤية"
+    },
+    {
+      "name": "section_thinking",
+      "value": "التفكير والويب"
+    },
+    {
+      "name": "section_prompt",
+      "value": "الموجه"
+    },
+    {
+      "name": "prompt_label",
+      "value": "موجه النظام"
+    },
+    {
+      "name": "prompt_hint",
+      "value": "يُرسَل كرسالة system: تحكّم هنا باللغة والنبرة"
+    },
+    {
+      "name": "section_sampling",
+      "value": "العينات"
+    },
+    {
+      "name": "sampling_temperature",
+      "value": "درجة الحرارة"
+    },
+    {
+      "name": "sampling_temperature_summary",
+      "value": "temperature · 0–2، الأقل أكثر ثباتًا"
+    },
+    {
+      "name": "sampling_top_p",
+      "value": "top-p"
+    },
+    {
+      "name": "sampling_top_p_summary",
+      "value": "top_p · 0–1"
+    },
+    {
+      "name": "sampling_max_tokens",
+      "value": "الحد الأقصى للمخرجات"
+    },
+    {
+      "name": "sampling_max_tokens_summary",
+      "value": "max_tokens · 128–8192، استخدم 2400+ للمنشورات الطويلة"
+    },
+    {
+      "name": "sampling_freq",
+      "value": "عقوبة التكرار"
+    },
+    {
+      "name": "sampling_freq_summary",
+      "value": "frequency_penalty · -2–2"
+    },
+    {
+      "name": "sampling_pres",
+      "value": "عقوبة الوجود"
+    },
+    {
+      "name": "sampling_pres_summary",
+      "value": "presence_penalty · -2–2"
+    },
+    {
+      "name": "field_api_type",
+      "value": "نوع API"
+    },
+    {
+      "name": "test_ok_no_switches",
+      "value": "اتصال سليم · %dms · التفكير والويب متوقفان · «%s»"
+    },
+    {
+      "name": "test_ok_with_switches",
+      "value": "اتصال سليم · %dms · أُرسل %s · «%s»"
+    },
+    {
+      "name": "test_warn_no_reasoning",
+      "value": "؛ لم يحمل الرد reasoning_content — قد تتجاهل نقطة النهاية التفكير العميق"
+    },
+    {
+      "name": "test_warn_no_search",
+      "value": "؛ لم يحمل الرد معلومات بحث (تبلّغ الخدمات عن ذلك بطرق مختلفة)"
+    },
+    {
+      "name": "test_failed",
+      "value": "فشل: %s"
+    },
+    {
+      "name": "test_switches_hint",
+      "value": "(أُرسلت المعلمات حسب مفاتيح «التفكير والويب»؛ أوقفها ثم أعد الاختبار.)"
+    },
+    {
+      "name": "vision_ok",
+      "value": "رؤية سليمة · %dms · قرأ «%s»"
+    },
+    {
+      "name": "vision_failed_unmatched",
+      "value": "نقطة النهاية تعمل لكن لم تُقرأ الرقم الاختباري %s (الرد «%s»): قد لا يدعم النموذج الرؤية"
+    },
+    {
+      "name": "post_detail_title",
+      "value": "تفاصيل المنشور"
+    },
+    {
+      "name": "save_all_images",
+      "value": "حفظ كل الصور"
+    },
+    {
+      "name": "favorite",
+      "value": "مفضلة"
+    },
+    {
+      "name": "unfavorite",
+      "value": "إزالة من المفضلة"
+    },
+    {
+      "name": "share_post",
+      "value": "مشاركة المنشور"
+    },
+    {
+      "name": "author_avatar",
+      "value": "صورة الكاتب"
+    },
+    {
+      "name": "subscribe",
+      "value": "اشتراك"
+    },
+    {
+      "name": "subscribed",
+      "value": "مشترك"
+    },
+    {
+      "name": "preview_only_notice",
+      "value": "تعليم الملف preview_only من الموقع: عند عدم تسجيل الدخول تحصل على معاينة فقط؛ الأصل يتطلب جلسة صالحة."
+    },
+    {
+      "name": "cd_comments",
+      "value": "التعليقات"
+    },
+    {
+      "name": "cd_attachments",
+      "value": "المرفقات"
+    },
+    {
+      "name": "cd_share",
+      "value": "مشاركة"
+    },
+    {
+      "name": "section_attachments",
+      "value": "المرفقات (%d)"
+    },
+    {
+      "name": "external_links",
+      "value": "روابط خارجية"
+    },
+    {
+      "name": "section_comments",
+      "value": "التعليقات (%d)"
+    },
+    {
+      "name": "section_revisions",
+      "value": "سجل المراجعات (%d)"
+    },
+    {
+      "name": "revision_title",
+      "value": "مراجعة #%s · %s"
+    },
+    {
+      "name": "revision_no_title",
+      "value": "(بلا عنوان)"
+    },
+    {
+      "name": "revision_edited",
+      "value": "حرّر %s"
+    },
+    {
+      "name": "revision_published",
+      "value": "نُشر %s"
+    },
+    {
+      "name": "prev_post",
+      "value": "السابق"
+    },
+    {
+      "name": "next_post",
+      "value": "التالي"
+    },
+    {
+      "name": "share_image",
+      "value": "مشاركة الصورة"
+    },
+    {
+      "name": "save_original",
+      "value": "حفظ الأصل"
+    },
+    {
+      "name": "save_all_originals",
+      "value": "حفظ كل الأصول"
+    },
+    {
+      "name": "copy_image_link",
+      "value": "نسخ رابط الصورة"
+    },
+    {
+      "name": "image_link",
+      "value": "رابط الصورة"
+    },
+    {
+      "name": "open_external_link",
+      "value": "فتح رابط خارجي"
+    },
+    {
+      "name": "action_open",
+      "value": "فتح"
+    },
+    {
+      "name": "cd_open_link",
+      "value": "فتح الرابط"
+    },
+    {
+      "name": "attachment_image",
+      "value": "صورة مرفق"
+    },
+    {
+      "name": "download_named",
+      "value": "تنزيل %s"
+    },
+    {
+      "name": "link_expired_long",
+      "value": "انتهت صلاحية رابط التشغيل/التنزيل المؤقت (روابط الموقع تدوم نحو 30 يومًا): أعد الدخول أو حدّث المنشور للحصول على رابط جديد."
+    },
+    {
+      "name": "link_preview_only_long",
+      "value": "الموقع يخزن معاينة فقط (preview_only): لم يُستورد الأصل أو يتطلب جلسة دخول، لذا قد يفشل التشغيل وقد لا يعمل التنزيل."
+    },
+    {
+      "name": "link_deferred_long",
+      "value": "لم يستورد الموقع ملف الأصل بعد (deferred): لا يوجد عنوان، حدّث المنشور لاحقًا."
+    },
+    {
+      "name": "download_add_failed",
+      "value": "تعذّر إضافة التنزيل: %s"
+    },
+    {
+      "name": "unknown_error",
+      "value": "خطأ غير معروف"
+    },
+    {
+      "name": "load_failed",
+      "value": "فشل التحميل: %s"
+    },
+    {
+      "name": "network_error",
+      "value": "خطأ في الشبكة"
+    },
+    {
+      "name": "link_expired_short",
+      "value": "انتهت صلاحية الرابط المؤقت؛ أعد الدخول للمنشور للحصول على جديد"
+    },
+    {
+      "name": "no_original_short",
+      "value": "لم يستورد الموقع ملف الأصل بعد، فلا يوجد عنوان تنزيل"
+    },
+    {
+      "name": "open_link_prompt",
+      "value": "على وشك مغادرة التطبيق وفتح:\n%s"
+    },
+    {
+      "name": "mine_signed_in",
+      "value": "تم الدخول · مزامنة مفضلات السحابة"
+    },
+    {
+      "name": "mine_not_signed_in",
+      "value": "لم يتم الدخول"
+    },
+    {
+      "name": "mine_sign_in_hint",
+      "value": "انقر لتسجيل الدخول ومزامنة المفضلات والأصول"
+    },
+    {
+      "name": "mine_messages",
+      "value": "الإشعارات"
+    },
+    {
+      "name": "mine_storage",
+      "value": "التخزين"
+    },
+    {
+      "name": "mine_downloads",
+      "value": "التنزيلات"
+    },
+    {
+      "name": "mine_history",
+      "value": "سجل التصفح"
+    },
+    {
+      "name": "mine_settings",
+      "value": "الإعدادات"
+    },
+    {
+      "name": "mine_about",
+      "value": "حول Archive"
+    },
+    {
+      "name": "mine_help",
+      "value": "المساعدة والملاحظات"
+    },
+    {
+      "name": "mine_subscription_summary",
+      "value": "تتابع %d من المبدعين"
+    },
+    {
+      "name": "history_clear",
+      "value": "مسح سجل التصفح"
+    },
+    {
+      "name": "history_clear_summary",
+      "value": "يحذف كل سجلات التصفح المخزنة على هذا الجهاز. لا يمكن التراجع."
+    },
+    {
+      "name": "history_clear_confirm",
+      "value": "مسح"
+    },
+    {
+      "name": "history_empty",
+      "value": "لا يوجد سجل تصفح"
+    },
+    {
+      "name": "history_local_only",
+      "value": "مخزن على هذا الجهاز فقط"
+    },
+    {
+      "name": "pull_to_refresh_pull",
+      "value": "اسحب للأسفل للتحديث"
+    },
+    {
+      "name": "pull_to_refresh_release",
+      "value": "أفلت للتحديث"
+    },
+    {
+      "name": "pull_to_refresh_refreshing",
+      "value": "جارٍ التحديث…"
+    },
+    {
+      "name": "pull_to_refresh_done",
+      "value": "تم التحديث بنجاح"
+    },
+    {
+      "name": "register_web_hint",
+      "value": "يتطلب التسجيل تحققًا بشريًا، لذا أُدمجت الصفحة الرسمية أدناه. سجّل أو ادخل من الويب وسيتم إدخالك تلقائيًا؛ وإلا استخدم تبويب «تسجيل الدخول»."
+    },
+    {
+      "name": "register_web_open_browser",
+      "value": "فتح في المتصفح"
+    },
+    {
+      "name": "register_web_failed",
+      "value": "فشل تحميل صفحة التسجيل: %s"
+    },
+    {
+      "name": "register_web_no_webview",
+      "value": "لا يوجد WebView نظام متاح على هذا الجهاز، فلا يمكن عرض صفحة التسجيل داخل التطبيق"
+    },
+    {
+      "name": "open_browser_failed",
+      "value": "لا يمكن فتح متصفح. يرجى الزيارة يدويًا: %s"
+    },
+    {
+      "name": "action_retry",
+      "value": "إعادة المحاولة"
+    },
+    {
+      "name": "mine_signed_in_title",
+      "value": "تم الدخول"
+    }
+  ]
+}

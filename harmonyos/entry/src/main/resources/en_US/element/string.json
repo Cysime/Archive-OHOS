@@ -1,0 +1,644 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "Archive HarmonyOS NEXT 客户端主模块"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "Archive 主界面"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "Archive"
+    },
+    {
+      "name": "app_name",
+      "value": "Archive"
+    },
+    {
+      "name": "language_section",
+      "value": "Language"
+    },
+    {
+      "name": "language_title",
+      "value": "Interface language"
+    },
+    {
+      "name": "language_summary",
+      "value": "Affects only the app menus and setting labels; post content is never translated. Applies immediately."
+    },
+    {
+      "name": "language_system",
+      "value": "System default"
+    },
+    {
+      "name": "nav_home",
+      "value": "Home"
+    },
+    {
+      "name": "nav_discover",
+      "value": "Discover"
+    },
+    {
+      "name": "nav_favorites",
+      "value": "Favorites"
+    },
+    {
+      "name": "nav_mine",
+      "value": "Me"
+    },
+    {
+      "name": "ai_switch_deep",
+      "value": "Deep thinking"
+    },
+    {
+      "name": "ai_switch_deep_summary",
+      "value": "Reason first, better for long texts. When off, no thinking-related fields are sent"
+    },
+    {
+      "name": "ai_switch_web",
+      "value": "Web search"
+    },
+    {
+      "name": "ai_switch_web_summary",
+      "value": "Handy for asking \"what work is this\" about an image; rarely needed for translation"
+    },
+    {
+      "name": "ai_thinking_level",
+      "value": "Thinking level"
+    },
+    {
+      "name": "ai_thinking_level_summary",
+      "value": "OpenAI reasoning_effort / Qwen thinking_budget; requires deep thinking"
+    },
+    {
+      "name": "ai_thinking_low",
+      "value": "Low (faster)"
+    },
+    {
+      "name": "ai_thinking_middle",
+      "value": "Medium (default)"
+    },
+    {
+      "name": "ai_thinking_high",
+      "value": "High (deeper)"
+    },
+    {
+      "name": "profile_edit",
+      "value": "Edit"
+    },
+    {
+      "name": "profile_delete",
+      "value": "Delete"
+    },
+    {
+      "name": "profile_add",
+      "value": "Add profile"
+    },
+    {
+      "name": "profile_editor_edit",
+      "value": "Edit profile"
+    },
+    {
+      "name": "profile_no_model",
+      "value": "(no model set)"
+    },
+    {
+      "name": "profile_field_name",
+      "value": "Name (e.g. Zhipu)"
+    },
+    {
+      "name": "profile_field_url",
+      "value": "Endpoint URL"
+    },
+    {
+      "name": "profile_field_key",
+      "value": "API key (leave empty for self-hosted)"
+    },
+    {
+      "name": "profile_field_model",
+      "value": "Model (serves whichever task this profile is assigned to)"
+    },
+    {
+      "name": "profile_field_show",
+      "value": "Show"
+    },
+    {
+      "name": "profile_field_hide",
+      "value": "Hide"
+    },
+    {
+      "name": "profile_invalid",
+      "value": "Name, endpoint URL and model are required"
+    },
+    {
+      "name": "action_save",
+      "value": "Save"
+    },
+    {
+      "name": "action_cancel",
+      "value": "Cancel"
+    },
+    {
+      "name": "ai_settings_title",
+      "value": "Post translation"
+    },
+    {
+      "name": "ai_overview_title",
+      "value": "AI endpoint"
+    },
+    {
+      "name": "ai_overview_summary",
+      "value": "Each purpose can use a model from a different platform; prompt, sampling and thinking switches apply to all profiles."
+    },
+    {
+      "name": "status_configured",
+      "value": "Configured"
+    },
+    {
+      "name": "status_pending",
+      "value": "Not configured"
+    },
+    {
+      "name": "section_profiles",
+      "value": "Model profiles"
+    },
+    {
+      "name": "profiles_empty",
+      "value": "No profiles yet. Tap \"Add profile\" to connect a platform."
+    },
+    {
+      "name": "section_purposes",
+      "value": "Purpose assignment"
+    },
+    {
+      "name": "purposes_empty",
+      "value": "Add a profile first, then assign one to each purpose."
+    },
+    {
+      "name": "purpose_translation",
+      "value": "Post translation"
+    },
+    {
+      "name": "purpose_translation_summary",
+      "value": "Translate post title and body"
+    },
+    {
+      "name": "purpose_vision",
+      "value": "Image understanding (summary / Q&A)"
+    },
+    {
+      "name": "purpose_vision_summary",
+      "value": "AI summary and image Q&A"
+    },
+    {
+      "name": "purpose_placeholder",
+      "value": "(add a profile first)"
+    },
+    {
+      "name": "auto_translate",
+      "value": "Auto translate"
+    },
+    {
+      "name": "auto_translate_summary",
+      "value": "Starts translating when a post opens (uses the profile assigned to Post translation); when off, tap \"Show translation\" in the body."
+    },
+    {
+      "name": "section_test",
+      "value": "Test"
+    },
+    {
+      "name": "test_summary",
+      "value": "\"Test connection\" uses the translation profile and \"Vision test\" uses the image profile; run them after switching endpoints or models."
+    },
+    {
+      "name": "test_running",
+      "value": "Testing…"
+    },
+    {
+      "name": "test_connection",
+      "value": "Test connection"
+    },
+    {
+      "name": "test_vision",
+      "value": "Vision test"
+    },
+    {
+      "name": "section_thinking",
+      "value": "Thinking and web"
+    },
+    {
+      "name": "section_prompt",
+      "value": "Prompt"
+    },
+    {
+      "name": "prompt_label",
+      "value": "System prompt"
+    },
+    {
+      "name": "prompt_hint",
+      "value": "Sent as the system message: control language and tone here"
+    },
+    {
+      "name": "section_sampling",
+      "value": "Sampling"
+    },
+    {
+      "name": "sampling_temperature",
+      "value": "Temperature"
+    },
+    {
+      "name": "sampling_temperature_summary",
+      "value": "temperature · 0–2, lower is steadier"
+    },
+    {
+      "name": "sampling_top_p",
+      "value": "Top-p"
+    },
+    {
+      "name": "sampling_top_p_summary",
+      "value": "top_p · 0–1"
+    },
+    {
+      "name": "sampling_max_tokens",
+      "value": "Max output"
+    },
+    {
+      "name": "sampling_max_tokens_summary",
+      "value": "max_tokens · 128–8192, use 2400+ for long posts"
+    },
+    {
+      "name": "sampling_freq",
+      "value": "Frequency penalty"
+    },
+    {
+      "name": "sampling_freq_summary",
+      "value": "frequency_penalty · -2–2"
+    },
+    {
+      "name": "sampling_pres",
+      "value": "Presence penalty"
+    },
+    {
+      "name": "sampling_pres_summary",
+      "value": "presence_penalty · -2–2"
+    },
+    {
+      "name": "field_api_type",
+      "value": "API type"
+    },
+    {
+      "name": "test_ok_no_switches",
+      "value": "Connection OK · %dms · thinking and web are off · \"%s\""
+    },
+    {
+      "name": "test_ok_with_switches",
+      "value": "Connection OK · %dms · sent %s · \"%s\""
+    },
+    {
+      "name": "test_warn_no_reasoning",
+      "value": "; the response carried no reasoning_content - the endpoint may ignore deep thinking"
+    },
+    {
+      "name": "test_warn_no_search",
+      "value": "; the response carried no search info (services report this differently)"
+    },
+    {
+      "name": "test_failed",
+      "value": "Failed: %s"
+    },
+    {
+      "name": "test_switches_hint",
+      "value": "(Parameters were sent according to the Thinking and web switches; turn them off and test again.)"
+    },
+    {
+      "name": "vision_ok",
+      "value": "Vision OK · %dms · read \"%s\""
+    },
+    {
+      "name": "vision_failed_unmatched",
+      "value": "The endpoint works, but the test number %s was not read back (response \"%s\"): the model may not support vision"
+    },
+    {
+      "name": "post_detail_title",
+      "value": "Post details"
+    },
+    {
+      "name": "save_all_images",
+      "value": "Save all images"
+    },
+    {
+      "name": "favorite",
+      "value": "Favorite"
+    },
+    {
+      "name": "unfavorite",
+      "value": "Unfavorite"
+    },
+    {
+      "name": "share_post",
+      "value": "Share post"
+    },
+    {
+      "name": "author_avatar",
+      "value": "Author avatar"
+    },
+    {
+      "name": "subscribe",
+      "value": "Subscribe"
+    },
+    {
+      "name": "subscribed",
+      "value": "Subscribed"
+    },
+    {
+      "name": "preview_only_notice",
+      "value": "This file is marked preview_only by the site: when signed out you only get a preview; the original needs a valid session."
+    },
+    {
+      "name": "cd_comments",
+      "value": "Comments"
+    },
+    {
+      "name": "cd_attachments",
+      "value": "Attachments"
+    },
+    {
+      "name": "cd_share",
+      "value": "Share"
+    },
+    {
+      "name": "section_attachments",
+      "value": "Attachments (%d)"
+    },
+    {
+      "name": "external_links",
+      "value": "External links"
+    },
+    {
+      "name": "section_comments",
+      "value": "Comments (%d)"
+    },
+    {
+      "name": "section_revisions",
+      "value": "Revision history (%d)"
+    },
+    {
+      "name": "revision_title",
+      "value": "Revision #%s · %s"
+    },
+    {
+      "name": "revision_no_title",
+      "value": "(untitled)"
+    },
+    {
+      "name": "revision_edited",
+      "value": "Edited %s"
+    },
+    {
+      "name": "revision_published",
+      "value": "Published %s"
+    },
+    {
+      "name": "prev_post",
+      "value": "Previous"
+    },
+    {
+      "name": "next_post",
+      "value": "Next"
+    },
+    {
+      "name": "share_image",
+      "value": "Share image"
+    },
+    {
+      "name": "save_original",
+      "value": "Save original"
+    },
+    {
+      "name": "save_all_originals",
+      "value": "Save all originals"
+    },
+    {
+      "name": "copy_image_link",
+      "value": "Copy image link"
+    },
+    {
+      "name": "image_link",
+      "value": "Image link"
+    },
+    {
+      "name": "open_external_link",
+      "value": "Open external link"
+    },
+    {
+      "name": "action_open",
+      "value": "Open"
+    },
+    {
+      "name": "cd_open_link",
+      "value": "Open link"
+    },
+    {
+      "name": "attachment_image",
+      "value": "Attachment image"
+    },
+    {
+      "name": "download_named",
+      "value": "Download %s"
+    },
+    {
+      "name": "link_expired_long",
+      "value": "The temporary playback/download link has expired (site links last about 30 days): re-enter or refresh this post for a new one."
+    },
+    {
+      "name": "link_preview_only_long",
+      "value": "The site only stores a preview (preview_only): the original was not imported or needs a signed-in session, so playback may fail and downloads may not work."
+    },
+    {
+      "name": "link_deferred_long",
+      "value": "The site has not imported the original file yet (deferred): no address available, refresh this post later."
+    },
+    {
+      "name": "download_add_failed",
+      "value": "Could not add the download: %s"
+    },
+    {
+      "name": "unknown_error",
+      "value": "Unknown error"
+    },
+    {
+      "name": "load_failed",
+      "value": "Failed to load: %s"
+    },
+    {
+      "name": "network_error",
+      "value": "Network error"
+    },
+    {
+      "name": "link_expired_short",
+      "value": "The temporary link has expired; re-enter this post for a new one"
+    },
+    {
+      "name": "no_original_short",
+      "value": "The site has not imported the original file, so there is no download address yet"
+    },
+    {
+      "name": "open_link_prompt",
+      "value": "About to leave the app and open:\n%s"
+    },
+    {
+      "name": "mine_signed_in",
+      "value": "Signed in · cloud favorites synced"
+    },
+    {
+      "name": "mine_not_signed_in",
+      "value": "Not signed in"
+    },
+    {
+      "name": "mine_sign_in_hint",
+      "value": "Tap to sign in and sync cloud favorites and originals"
+    },
+    {
+      "name": "mine_messages",
+      "value": "Notifications"
+    },
+    {
+      "name": "mine_storage",
+      "value": "Storage"
+    },
+    {
+      "name": "mine_downloads",
+      "value": "Downloads"
+    },
+    {
+      "name": "mine_history",
+      "value": "Browsing history"
+    },
+    {
+      "name": "mine_settings",
+      "value": "Settings"
+    },
+    {
+      "name": "mine_about",
+      "value": "About Archive"
+    },
+    {
+      "name": "mine_help",
+      "value": "Help and feedback"
+    },
+    {
+      "name": "mine_subscription_summary",
+      "value": "Following %d creators"
+    },
+    {
+      "name": "history_clear",
+      "value": "Clear browsing history"
+    },
+    {
+      "name": "history_clear_summary",
+      "value": "This deletes all browsing records stored on this device. It cannot be undone."
+    },
+    {
+      "name": "history_clear_confirm",
+      "value": "Clear"
+    },
+    {
+      "name": "history_empty",
+      "value": "No browsing history"
+    },
+    {
+      "name": "history_local_only",
+      "value": "Stored on this device only"
+    },
+    {
+      "name": "pull_to_refresh_pull",
+      "value": "Pull down to refresh"
+    },
+    {
+      "name": "pull_to_refresh_release",
+      "value": "Release to refresh"
+    },
+    {
+      "name": "pull_to_refresh_refreshing",
+      "value": "Refreshing…"
+    },
+    {
+      "name": "pull_to_refresh_done",
+      "value": "Refreshed successfully"
+    },
+    {
+      "name": "register_web_hint",
+      "value": "Registration requires a captcha, so the official page is embedded below. Register or log in there and the app signs you in automatically; otherwise use the Log in tab."
+    },
+    {
+      "name": "register_web_open_browser",
+      "value": "Open in browser"
+    },
+    {
+      "name": "register_web_failed",
+      "value": "Failed to load the registration page: %s"
+    },
+    {
+      "name": "register_web_no_webview",
+      "value": "This device has no usable system WebView, so the registration page cannot be shown in-app"
+    },
+    {
+      "name": "open_browser_failed",
+      "value": "Cannot open a browser. Please visit manually: %s"
+    },
+    {
+      "name": "action_retry",
+      "value": "Retry"
+    },
+    {
+      "name": "mine_signed_in_title",
+      "value": "Signed in"
+    },
+    {
+      "name": "settings_search_hint",
+      "value": "Search settings"
+    },
+    {
+      "name": "settings_no_results",
+      "value": "No matching settings"
+    },
+    {
+      "name": "settings_back_to_list",
+      "value": "Back to categories"
+    },
+    {
+      "name": "settings_cat_appearance",
+      "value": "Appearance"
+    },
+    {
+      "name": "settings_cat_privacy",
+      "value": "Privacy & security"
+    },
+    {
+      "name": "settings_cat_network",
+      "value": "Network"
+    },
+    {
+      "name": "settings_cat_browse",
+      "value": "Browsing & search"
+    },
+    {
+      "name": "settings_cat_download",
+      "value": "Download"
+    },
+    {
+      "name": "settings_cat_storage",
+      "value": "Storage & cleanup"
+    },
+    {
+      "name": "settings_cat_ai",
+      "value": "AI features"
+    },
+    {
+      "name": "settings_cat_blocked",
+      "value": "Blocked content"
+    }
+  ]
+}

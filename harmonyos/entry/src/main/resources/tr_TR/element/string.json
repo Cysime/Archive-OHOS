@@ -1,0 +1,600 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "Archive HarmonyOS NEXT 客户端主模块"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "Archive 主界面"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "Archive"
+    },
+    {
+      "name": "app_name",
+      "value": "Archive"
+    },
+    {
+      "name": "language_section",
+      "value": "Dil"
+    },
+    {
+      "name": "language_title",
+      "value": "Arayüz dili"
+    },
+    {
+      "name": "language_summary",
+      "value": "Yalnızca uygulama menülerini ve ayar metinlerini etkiler; gönderi içeriği çevrilmez. Anında uygulanır."
+    },
+    {
+      "name": "language_system",
+      "value": "Sistem varsayılanı"
+    },
+    {
+      "name": "nav_home",
+      "value": "Ana sayfa"
+    },
+    {
+      "name": "nav_discover",
+      "value": "Keşfet"
+    },
+    {
+      "name": "nav_favorites",
+      "value": "Favoriler"
+    },
+    {
+      "name": "nav_mine",
+      "value": "Ben"
+    },
+    {
+      "name": "ai_switch_deep",
+      "value": "Derin düşünme"
+    },
+    {
+      "name": "ai_switch_deep_summary",
+      "value": "Önce akıl yürüt, uzun metinler için daha iyi. Kapalıyken düşünme alanları gönderilmez"
+    },
+    {
+      "name": "ai_switch_web",
+      "value": "Web araması"
+    },
+    {
+      "name": "ai_switch_web_summary",
+      "value": "Bir görselle ilgili «bu hangi çalışma» sorusu için kullanışlı; çeviride nadiren gerekir"
+    },
+    {
+      "name": "ai_thinking_level",
+      "value": "Düşünme düzeyi"
+    },
+    {
+      "name": "ai_thinking_level_summary",
+      "value": "OpenAI reasoning_effort / Qwen thinking_budget; derin düşünme gerektirir"
+    },
+    {
+      "name": "ai_thinking_low",
+      "value": "Düşük (daha hızlı)"
+    },
+    {
+      "name": "ai_thinking_middle",
+      "value": "Orta (varsayılan)"
+    },
+    {
+      "name": "ai_thinking_high",
+      "value": "Yüksek (daha derin)"
+    },
+    {
+      "name": "profile_edit",
+      "value": "Düzenle"
+    },
+    {
+      "name": "profile_delete",
+      "value": "Sil"
+    },
+    {
+      "name": "profile_add",
+      "value": "Profil ekle"
+    },
+    {
+      "name": "profile_editor_edit",
+      "value": "Profili düzenle"
+    },
+    {
+      "name": "profile_no_model",
+      "value": "(model yok)"
+    },
+    {
+      "name": "profile_field_name",
+      "value": "Ad (ör. Zhipu)"
+    },
+    {
+      "name": "profile_field_url",
+      "value": "Uç nokta URL"
+    },
+    {
+      "name": "profile_field_key",
+      "value": "API anahtarı (kendi sunucun için boş bırak)"
+    },
+    {
+      "name": "profile_field_model",
+      "value": "Model (bu profilin atandığı görev için kullanılır)"
+    },
+    {
+      "name": "profile_field_show",
+      "value": "Göster"
+    },
+    {
+      "name": "profile_field_hide",
+      "value": "Gizle"
+    },
+    {
+      "name": "profile_invalid",
+      "value": "Ad, uç nokta URL ve model zorunlu"
+    },
+    {
+      "name": "action_save",
+      "value": "Kaydet"
+    },
+    {
+      "name": "action_cancel",
+      "value": "İptal"
+    },
+    {
+      "name": "ai_settings_title",
+      "value": "Gönderi çevirisi"
+    },
+    {
+      "name": "ai_overview_title",
+      "value": "AI uç noktası"
+    },
+    {
+      "name": "ai_overview_summary",
+      "value": "Her amaç farklı platformdan bir model kullanabilir; istem, örnekleme ve düşünme ayarları tüm profillere uygulanır."
+    },
+    {
+      "name": "status_configured",
+      "value": "Yapılandırıldı"
+    },
+    {
+      "name": "status_pending",
+      "value": "Yapılandırılmadı"
+    },
+    {
+      "name": "section_profiles",
+      "value": "Model profilleri"
+    },
+    {
+      "name": "profiles_empty",
+      "value": "Henüz profil yok. Bir platform bağlamak için «Profil ekle»ye dokun."
+    },
+    {
+      "name": "section_purposes",
+      "value": "Amaç ataması"
+    },
+    {
+      "name": "purposes_empty",
+      "value": "Önce bir profil ekle, sonra her amaca bir tane ata."
+    },
+    {
+      "name": "purpose_translation",
+      "value": "Gönderi çevirisi"
+    },
+    {
+      "name": "purpose_translation_summary",
+      "value": "Gönderi başlığı ve gövdesini çevir"
+    },
+    {
+      "name": "purpose_vision",
+      "value": "Görsel anlama (özet / soru-cevap)"
+    },
+    {
+      "name": "purpose_vision_summary",
+      "value": "AI özeti ve görsel soru-cevap"
+    },
+    {
+      "name": "purpose_placeholder",
+      "value": "(önce profil ekle)"
+    },
+    {
+      "name": "auto_translate",
+      "value": "Otomatik çeviri"
+    },
+    {
+      "name": "auto_translate_summary",
+      "value": "Bir gönderi açıldığında çevirmeye başlar (Gönderi çevirisi için atanan profili kullanır); kapalıyken gövdede «Çeviriyi göster»e dokun."
+    },
+    {
+      "name": "section_test",
+      "value": "Test"
+    },
+    {
+      "name": "test_summary",
+      "value": "«Bağlantı testi» çeviri profilini, «Görsel test» görsel profilini kullanır; uç nokta veya model değiştirdikten sonra çalıştır."
+    },
+    {
+      "name": "test_running",
+      "value": "Test ediliyor…"
+    },
+    {
+      "name": "test_connection",
+      "value": "Bağlantıyı test et"
+    },
+    {
+      "name": "test_vision",
+      "value": "Görsel testi"
+    },
+    {
+      "name": "section_thinking",
+      "value": "Düşünme ve web"
+    },
+    {
+      "name": "section_prompt",
+      "value": "İstem"
+    },
+    {
+      "name": "prompt_label",
+      "value": "Sistem istemi"
+    },
+    {
+      "name": "prompt_hint",
+      "value": "System mesajı olarak gönderilir: dili ve tonu burada belirle"
+    },
+    {
+      "name": "section_sampling",
+      "value": "Örnekleme"
+    },
+    {
+      "name": "sampling_temperature",
+      "value": "Sıcaklık"
+    },
+    {
+      "name": "sampling_temperature_summary",
+      "value": "temperature · 0–2, düşük daha kararlı"
+    },
+    {
+      "name": "sampling_top_p",
+      "value": "Top-p"
+    },
+    {
+      "name": "sampling_top_p_summary",
+      "value": "top_p · 0–1"
+    },
+    {
+      "name": "sampling_max_tokens",
+      "value": "Maks çıktı"
+    },
+    {
+      "name": "sampling_max_tokens_summary",
+      "value": "max_tokens · 128–8192, uzun gönderiler için 2400+"
+    },
+    {
+      "name": "sampling_freq",
+      "value": "Frekans cezası"
+    },
+    {
+      "name": "sampling_freq_summary",
+      "value": "frequency_penalty · -2–2"
+    },
+    {
+      "name": "sampling_pres",
+      "value": "Varlık cezası"
+    },
+    {
+      "name": "sampling_pres_summary",
+      "value": "presence_penalty · -2–2"
+    },
+    {
+      "name": "field_api_type",
+      "value": "API türü"
+    },
+    {
+      "name": "test_ok_no_switches",
+      "value": "Bağlantı tamam · %dms · düşünme ve web kapalı · «%s»"
+    },
+    {
+      "name": "test_ok_with_switches",
+      "value": "Bağlantı tamam · %dms · gönderilen %s · «%s»"
+    },
+    {
+      "name": "test_warn_no_reasoning",
+      "value": "; yanıtta reasoning_content yok — uç nokta derin düşünmeyi yok sayıyor olabilir"
+    },
+    {
+      "name": "test_warn_no_search",
+      "value": "; yanıtta arama bilgisi yok (hizmetler bunu farklı bildirir)"
+    },
+    {
+      "name": "test_failed",
+      "value": "Başarısız: %s"
+    },
+    {
+      "name": "test_switches_hint",
+      "value": "(Parametreler Düşünme ve web ayarlarına göre gönderildi; önce bunları kapatıp tekrar dene.)"
+    },
+    {
+      "name": "vision_ok",
+      "value": "Görsel tamam · %dms · okunan «%s»"
+    },
+    {
+      "name": "vision_failed_unmatched",
+      "value": "Uç nokta çalışıyor ama test numarası %s geri okunamadı (yanıt «%s»): model görsel desteklemiyor olabilir"
+    },
+    {
+      "name": "post_detail_title",
+      "value": "Gönderi ayrıntıları"
+    },
+    {
+      "name": "save_all_images",
+      "value": "Tüm görselleri kaydet"
+    },
+    {
+      "name": "favorite",
+      "value": "Favori"
+    },
+    {
+      "name": "unfavorite",
+      "value": "Favoriden çıkar"
+    },
+    {
+      "name": "share_post",
+      "value": "Gönderiyi paylaş"
+    },
+    {
+      "name": "author_avatar",
+      "value": "Yazar avatarı"
+    },
+    {
+      "name": "subscribe",
+      "value": "Abone ol"
+    },
+    {
+      "name": "subscribed",
+      "value": "Abone olundu"
+    },
+    {
+      "name": "preview_only_notice",
+      "value": "Bu dosya site tarafından preview_only işaretli: oturum kapalıyken yalnızca önizleme alırsın; asıl dosya geçerli oturum ister."
+    },
+    {
+      "name": "cd_comments",
+      "value": "Yorumlar"
+    },
+    {
+      "name": "cd_attachments",
+      "value": "Ekler"
+    },
+    {
+      "name": "cd_share",
+      "value": "Paylaş"
+    },
+    {
+      "name": "section_attachments",
+      "value": "Ekler (%d)"
+    },
+    {
+      "name": "external_links",
+      "value": "Harici bağlantılar"
+    },
+    {
+      "name": "section_comments",
+      "value": "Yorumlar (%d)"
+    },
+    {
+      "name": "section_revisions",
+      "value": "Revizyon geçmişi (%d)"
+    },
+    {
+      "name": "revision_title",
+      "value": "Revizyon #%s · %s"
+    },
+    {
+      "name": "revision_no_title",
+      "value": "(başlıksız)"
+    },
+    {
+      "name": "revision_edited",
+      "value": "Düzenlendi %s"
+    },
+    {
+      "name": "revision_published",
+      "value": "Yayınlandı %s"
+    },
+    {
+      "name": "prev_post",
+      "value": "Önceki"
+    },
+    {
+      "name": "next_post",
+      "value": "Sonraki"
+    },
+    {
+      "name": "share_image",
+      "value": "Görseli paylaş"
+    },
+    {
+      "name": "save_original",
+      "value": "Aslı kaydet"
+    },
+    {
+      "name": "save_all_originals",
+      "value": "Tüm asılları kaydet"
+    },
+    {
+      "name": "copy_image_link",
+      "value": "Görsel bağlantısını kopyala"
+    },
+    {
+      "name": "image_link",
+      "value": "Görsel bağlantısı"
+    },
+    {
+      "name": "open_external_link",
+      "value": "Harici bağlantıyı aç"
+    },
+    {
+      "name": "action_open",
+      "value": "Aç"
+    },
+    {
+      "name": "cd_open_link",
+      "value": "Bağlantıyı aç"
+    },
+    {
+      "name": "attachment_image",
+      "value": "Ek görseli"
+    },
+    {
+      "name": "download_named",
+      "value": "İndir %s"
+    },
+    {
+      "name": "link_expired_long",
+      "value": "Geçici oynatma/indirme bağlantısı süresi doldu (site bağlantıları ~30 gün): yeni bağlantı için bu gönderiye yeniden gir veya yenile."
+    },
+    {
+      "name": "link_preview_only_long",
+      "value": "Site yalnızca önizleme saklıyor (preview_only): asıl dosya içe alınmadı veya oturum ister, bu yüzden oynatma başarısız olabilir ve indirme çalışmayabilir."
+    },
+    {
+      "name": "link_deferred_long",
+      "value": "Site asıl dosyayı henüz içe almadı (deferred): adres yok, bu gönderiyi sonra yenile."
+    },
+    {
+      "name": "download_add_failed",
+      "value": "İndirme eklenemedi: %s"
+    },
+    {
+      "name": "unknown_error",
+      "value": "Bilinmeyen hata"
+    },
+    {
+      "name": "load_failed",
+      "value": "Yükleme başarısız: %s"
+    },
+    {
+      "name": "network_error",
+      "value": "Ağ hatası"
+    },
+    {
+      "name": "link_expired_short",
+      "value": "Geçici bağlantının süresi doldu; yeni bağlantı için bu gönderiye yeniden gir"
+    },
+    {
+      "name": "no_original_short",
+      "value": "Site asıl dosyayı henüz içe almadı, indirme adresi yok"
+    },
+    {
+      "name": "open_link_prompt",
+      "value": "Uygulamadan ayrılıp açılıyor:\n%s"
+    },
+    {
+      "name": "mine_signed_in",
+      "value": "Oturum açık · bulut favorileri senkronize"
+    },
+    {
+      "name": "mine_not_signed_in",
+      "value": "Oturum kapalı"
+    },
+    {
+      "name": "mine_sign_in_hint",
+      "value": "Bulut favorileri ve asıl dosyaları senkronize etmek için dokun"
+    },
+    {
+      "name": "mine_messages",
+      "value": "Bildirimler"
+    },
+    {
+      "name": "mine_storage",
+      "value": "Depolama"
+    },
+    {
+      "name": "mine_downloads",
+      "value": "İndirilenler"
+    },
+    {
+      "name": "mine_history",
+      "value": "Gözatma geçmişi"
+    },
+    {
+      "name": "mine_settings",
+      "value": "Ayarlar"
+    },
+    {
+      "name": "mine_about",
+      "value": "Archive hakkında"
+    },
+    {
+      "name": "mine_help",
+      "value": "Yardım ve geri bildirim"
+    },
+    {
+      "name": "mine_subscription_summary",
+      "value": "%d yaratıcıyı takip ediyorsun"
+    },
+    {
+      "name": "history_clear",
+      "value": "Gözatma geçmişini temizle"
+    },
+    {
+      "name": "history_clear_summary",
+      "value": "Bu cihazda saklanan tüm gezinme kayıtlarını siler. Geri alınamaz."
+    },
+    {
+      "name": "history_clear_confirm",
+      "value": "Temizle"
+    },
+    {
+      "name": "history_empty",
+      "value": "Gözatma geçmişi yok"
+    },
+    {
+      "name": "history_local_only",
+      "value": "Yalnızca bu cihazda saklanır"
+    },
+    {
+      "name": "pull_to_refresh_pull",
+      "value": "Yenilemek için aşağı çek"
+    },
+    {
+      "name": "pull_to_refresh_release",
+      "value": "Yenilemek için bırak"
+    },
+    {
+      "name": "pull_to_refresh_refreshing",
+      "value": "Yenileniyor…"
+    },
+    {
+      "name": "pull_to_refresh_done",
+      "value": "Yenileme başarılı"
+    },
+    {
+      "name": "register_web_hint",
+      "value": "Kayıt captcha gerektirdiğinden resmi sayfa aşağıya gömüldü. Web sayfasında kaydol veya gir, uygulama seni otomatik oturum açar; aksi halde «Oturum aç» sekmesini kullan."
+    },
+    {
+      "name": "register_web_open_browser",
+      "value": "Tarayıcıda aç"
+    },
+    {
+      "name": "register_web_failed",
+      "value": "Kayıt sayfası yüklenemedi: %s"
+    },
+    {
+      "name": "register_web_no_webview",
+      "value": "Bu cihazda kullanılabilir sistem WebView yok, kayıt sayfası uygulama içinde gösterilemez"
+    },
+    {
+      "name": "open_browser_failed",
+      "value": "Tarayıcı açılamıyor. Lütfen elle ziyaret et: %s"
+    },
+    {
+      "name": "action_retry",
+      "value": "Yeniden dene"
+    },
+    {
+      "name": "mine_signed_in_title",
+      "value": "Oturum açık"
+    }
+  ]
+}

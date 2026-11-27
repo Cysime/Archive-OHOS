@@ -1,0 +1,644 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "Archive HarmonyOS NEXT 客户端主模块"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "Archive 主界面"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "Archive"
+    },
+    {
+      "name": "app_name",
+      "value": "Archive"
+    },
+    {
+      "name": "language_section",
+      "value": "语言"
+    },
+    {
+      "name": "language_title",
+      "value": "界面语言"
+    },
+    {
+      "name": "language_summary",
+      "value": "只影响应用的菜单与设置文字，不翻译帖子内容；切换后立即生效"
+    },
+    {
+      "name": "language_system",
+      "value": "跟随系统"
+    },
+    {
+      "name": "nav_home",
+      "value": "首页"
+    },
+    {
+      "name": "nav_discover",
+      "value": "发现"
+    },
+    {
+      "name": "nav_favorites",
+      "value": "收藏"
+    },
+    {
+      "name": "nav_mine",
+      "value": "我"
+    },
+    {
+      "name": "ai_switch_deep",
+      "value": "深度思考"
+    },
+    {
+      "name": "ai_switch_deep_summary",
+      "value": "先推理再作答，适合长文；关闭时不向接口下发任何思考相关字段"
+    },
+    {
+      "name": "ai_switch_web",
+      "value": "联网搜索"
+    },
+    {
+      "name": "ai_switch_web_summary",
+      "value": "图片问答里问「这是什么作品」很有用；翻译一般不需要"
+    },
+    {
+      "name": "ai_thinking_level",
+      "value": "思考等级"
+    },
+    {
+      "name": "ai_thinking_level_summary",
+      "value": "OpenAI 系 reasoning_effort / 通义 thinking_budget；需先打开深度思考"
+    },
+    {
+      "name": "ai_thinking_low",
+      "value": "低（更快）"
+    },
+    {
+      "name": "ai_thinking_middle",
+      "value": "中（默认）"
+    },
+    {
+      "name": "ai_thinking_high",
+      "value": "高（更深入）"
+    },
+    {
+      "name": "profile_edit",
+      "value": "编辑"
+    },
+    {
+      "name": "profile_delete",
+      "value": "删除"
+    },
+    {
+      "name": "profile_add",
+      "value": "添加档案"
+    },
+    {
+      "name": "profile_editor_edit",
+      "value": "编辑档案"
+    },
+    {
+      "name": "profile_no_model",
+      "value": "（未填模型）"
+    },
+    {
+      "name": "profile_field_name",
+      "value": "名称（例如：智谱）"
+    },
+    {
+      "name": "profile_field_url",
+      "value": "接口地址"
+    },
+    {
+      "name": "profile_field_key",
+      "value": "API Key（自建端点可留空）"
+    },
+    {
+      "name": "profile_field_model",
+      "value": "模型（该档案被指派到哪个用途，就为哪个任务服务）"
+    },
+    {
+      "name": "profile_field_show",
+      "value": "显示"
+    },
+    {
+      "name": "profile_field_hide",
+      "value": "隐藏"
+    },
+    {
+      "name": "profile_invalid",
+      "value": "名称、接口地址、模型都需要填写后才能保存"
+    },
+    {
+      "name": "action_save",
+      "value": "保存"
+    },
+    {
+      "name": "action_cancel",
+      "value": "取消"
+    },
+    {
+      "name": "ai_settings_title",
+      "value": "帖子翻译"
+    },
+    {
+      "name": "ai_overview_title",
+      "value": "AI 接口"
+    },
+    {
+      "name": "ai_overview_summary",
+      "value": "每个用途可指派不同平台的大模型；提示词、采样参数与推理开关对所有档案统一生效。"
+    },
+    {
+      "name": "status_configured",
+      "value": "已配置"
+    },
+    {
+      "name": "status_pending",
+      "value": "待配置"
+    },
+    {
+      "name": "section_profiles",
+      "value": "模型档案"
+    },
+    {
+      "name": "profiles_empty",
+      "value": "还没有档案。点「添加档案」把你要用的平台接进来。"
+    },
+    {
+      "name": "section_purposes",
+      "value": "用途分配"
+    },
+    {
+      "name": "purposes_empty",
+      "value": "先添加档案，再为每个用途指派模型。"
+    },
+    {
+      "name": "purpose_translation",
+      "value": "翻译帖子"
+    },
+    {
+      "name": "purpose_translation_summary",
+      "value": "帖子标题与正文的翻译"
+    },
+    {
+      "name": "purpose_vision",
+      "value": "识别图片（摘要 / 问答）"
+    },
+    {
+      "name": "purpose_vision_summary",
+      "value": "AI 摘要与图片问答"
+    },
+    {
+      "name": "purpose_placeholder",
+      "value": "（先添加档案）"
+    },
+    {
+      "name": "auto_translate",
+      "value": "自动翻译"
+    },
+    {
+      "name": "auto_translate_summary",
+      "value": "打开帖子时自动开始翻译（走「翻译帖子」指派的档案）；关闭后需手动点正文下方的「显示翻译」"
+    },
+    {
+      "name": "section_test",
+      "value": "测试"
+    },
+    {
+      "name": "test_summary",
+      "value": "「测试连通性」走翻译档案、「识图测试」走识别图片档案；换端点 / 换模型后先在这里确认。"
+    },
+    {
+      "name": "test_running",
+      "value": "测试中…"
+    },
+    {
+      "name": "test_connection",
+      "value": "测试连通性"
+    },
+    {
+      "name": "test_vision",
+      "value": "识图测试"
+    },
+    {
+      "name": "section_thinking",
+      "value": "推理与联网"
+    },
+    {
+      "name": "section_prompt",
+      "value": "翻译提示词"
+    },
+    {
+      "name": "prompt_label",
+      "value": "系统提示词"
+    },
+    {
+      "name": "prompt_hint",
+      "value": "作为 system 消息下发：翻译成什么语言、什么语气都在这里约束"
+    },
+    {
+      "name": "section_sampling",
+      "value": "采样参数"
+    },
+    {
+      "name": "sampling_temperature",
+      "value": "温度"
+    },
+    {
+      "name": "sampling_temperature_summary",
+      "value": "temperature · 0–2，越低越稳定"
+    },
+    {
+      "name": "sampling_top_p",
+      "value": "核采样"
+    },
+    {
+      "name": "sampling_top_p_summary",
+      "value": "top_p · 0–1"
+    },
+    {
+      "name": "sampling_max_tokens",
+      "value": "最大输出长度"
+    },
+    {
+      "name": "sampling_max_tokens_summary",
+      "value": "max_tokens · 128–8192，整篇翻译建议 2400 以上"
+    },
+    {
+      "name": "sampling_freq",
+      "value": "频率惩罚"
+    },
+    {
+      "name": "sampling_freq_summary",
+      "value": "frequency_penalty · -2–2"
+    },
+    {
+      "name": "sampling_pres",
+      "value": "存在惩罚"
+    },
+    {
+      "name": "sampling_pres_summary",
+      "value": "presence_penalty · -2–2"
+    },
+    {
+      "name": "field_api_type",
+      "value": "接口类型"
+    },
+    {
+      "name": "test_ok_no_switches",
+      "value": "连通正常 · %dms · 未开启推理与联网 · 「%s」"
+    },
+    {
+      "name": "test_ok_with_switches",
+      "value": "连通正常 · %dms · 已带 %s · 「%s」"
+    },
+    {
+      "name": "test_warn_no_reasoning",
+      "value": "；响应里没有 reasoning_content —— 端点可能忽略了深度思考参数"
+    },
+    {
+      "name": "test_warn_no_search",
+      "value": "；响应里没有检索信息字段（各家回传方式不同，不代表一定没检索）"
+    },
+    {
+      "name": "test_failed",
+      "value": "失败：%s"
+    },
+    {
+      "name": "test_switches_hint",
+      "value": "（本次已按「推理与联网」的开关下发参数；可先关掉这些开关再测一次，以确认是不是端点不支持这些字段）"
+    },
+    {
+      "name": "vision_ok",
+      "value": "识图正常 · %dms · 读出「%s」"
+    },
+    {
+      "name": "vision_failed_unmatched",
+      "value": "接口通了，但没读出测试数字 %s（返回「%s」）：这个模型可能不支持视觉，或者档案里的模型看不了图"
+    },
+    {
+      "name": "post_detail_title",
+      "value": "帖子详情"
+    },
+    {
+      "name": "save_all_images",
+      "value": "保存全部图片"
+    },
+    {
+      "name": "favorite",
+      "value": "收藏"
+    },
+    {
+      "name": "unfavorite",
+      "value": "取消收藏"
+    },
+    {
+      "name": "share_post",
+      "value": "分享帖子"
+    },
+    {
+      "name": "author_avatar",
+      "value": "作者头像"
+    },
+    {
+      "name": "subscribe",
+      "value": "订阅"
+    },
+    {
+      "name": "subscribed",
+      "value": "已订阅"
+    },
+    {
+      "name": "preview_only_notice",
+      "value": "该文件被站点标记为 preview_only：未登录时仅提供预览，原图需要有效会话。"
+    },
+    {
+      "name": "cd_comments",
+      "value": "评论"
+    },
+    {
+      "name": "cd_attachments",
+      "value": "附件"
+    },
+    {
+      "name": "cd_share",
+      "value": "分享"
+    },
+    {
+      "name": "section_attachments",
+      "value": "附件（%d）"
+    },
+    {
+      "name": "external_links",
+      "value": "外部链接"
+    },
+    {
+      "name": "section_comments",
+      "value": "评论（%d）"
+    },
+    {
+      "name": "section_revisions",
+      "value": "修订历史（%d）"
+    },
+    {
+      "name": "revision_title",
+      "value": "修订 #%s · %s"
+    },
+    {
+      "name": "revision_no_title",
+      "value": "(无标题)"
+    },
+    {
+      "name": "revision_edited",
+      "value": "编辑 %s"
+    },
+    {
+      "name": "revision_published",
+      "value": "发布 %s"
+    },
+    {
+      "name": "prev_post",
+      "value": "上一篇"
+    },
+    {
+      "name": "next_post",
+      "value": "下一篇"
+    },
+    {
+      "name": "share_image",
+      "value": "分享图片"
+    },
+    {
+      "name": "save_original",
+      "value": "保存原图"
+    },
+    {
+      "name": "save_all_originals",
+      "value": "保存全部原图"
+    },
+    {
+      "name": "copy_image_link",
+      "value": "复制图片链接"
+    },
+    {
+      "name": "image_link",
+      "value": "图片链接"
+    },
+    {
+      "name": "open_external_link",
+      "value": "打开外部链接"
+    },
+    {
+      "name": "action_open",
+      "value": "打开"
+    },
+    {
+      "name": "cd_open_link",
+      "value": "打开链接"
+    },
+    {
+      "name": "attachment_image",
+      "value": "附件图片"
+    },
+    {
+      "name": "download_named",
+      "value": "下载 %s"
+    },
+    {
+      "name": "link_expired_long",
+      "value": "临时播放/下载链接已过期（站点给的链接约 30 天有效）：重新进入或刷新该帖可获取新链接。"
+    },
+    {
+      "name": "link_preview_only_long",
+      "value": "站点仅收录预览（preview_only）：原文件未导入或需要登录会话，当前无法播放，下载也可能失败。"
+    },
+    {
+      "name": "link_deferred_long",
+      "value": "站点尚未导入该文件的原件（deferred）：暂无可用地址，稍后刷新该帖再看。"
+    },
+    {
+      "name": "download_add_failed",
+      "value": "加入下载失败：%s"
+    },
+    {
+      "name": "unknown_error",
+      "value": "未知错误"
+    },
+    {
+      "name": "load_failed",
+      "value": "加载失败：%s"
+    },
+    {
+      "name": "network_error",
+      "value": "网络错误"
+    },
+    {
+      "name": "link_expired_short",
+      "value": "临时链接已过期，重新进入该帖可获取新链接"
+    },
+    {
+      "name": "no_original_short",
+      "value": "站点尚未导入该文件的原件，暂无下载地址"
+    },
+    {
+      "name": "open_link_prompt",
+      "value": "即将离开应用打开：\n%s"
+    },
+    {
+      "name": "mine_signed_in",
+      "value": "已登录 · 云端收藏已同步"
+    },
+    {
+      "name": "mine_not_signed_in",
+      "value": "未登录"
+    },
+    {
+      "name": "mine_sign_in_hint",
+      "value": "点击登录，同步云端收藏与原图"
+    },
+    {
+      "name": "mine_messages",
+      "value": "消息中心"
+    },
+    {
+      "name": "mine_storage",
+      "value": "存储空间"
+    },
+    {
+      "name": "mine_downloads",
+      "value": "下载中心"
+    },
+    {
+      "name": "mine_history",
+      "value": "浏览历史"
+    },
+    {
+      "name": "mine_settings",
+      "value": "设置"
+    },
+    {
+      "name": "mine_about",
+      "value": "关于 Archive"
+    },
+    {
+      "name": "mine_help",
+      "value": "帮助与反馈"
+    },
+    {
+      "name": "mine_subscription_summary",
+      "value": "已订阅 %d 位创作者"
+    },
+    {
+      "name": "history_clear",
+      "value": "清空浏览历史"
+    },
+    {
+      "name": "history_clear_summary",
+      "value": "将删除本机保存的全部浏览记录，此操作不可撤销。"
+    },
+    {
+      "name": "history_clear_confirm",
+      "value": "清空"
+    },
+    {
+      "name": "history_empty",
+      "value": "暂无浏览记录"
+    },
+    {
+      "name": "history_local_only",
+      "value": "仅保存在本机"
+    },
+    {
+      "name": "pull_to_refresh_pull",
+      "value": "下拉刷新"
+    },
+    {
+      "name": "pull_to_refresh_release",
+      "value": "松开刷新"
+    },
+    {
+      "name": "pull_to_refresh_refreshing",
+      "value": "正在刷新…"
+    },
+    {
+      "name": "pull_to_refresh_done",
+      "value": "刷新完成"
+    },
+    {
+      "name": "register_web_hint",
+      "value": "站点注册需要人机验证，已在下方嵌入官方注册页。在网页里注册或登录成功后应用会自动登录；若未自动登录，可用「登录」标签登录。"
+    },
+    {
+      "name": "register_web_open_browser",
+      "value": "在浏览器中打开"
+    },
+    {
+      "name": "register_web_failed",
+      "value": "注册页加载失败：%s"
+    },
+    {
+      "name": "register_web_no_webview",
+      "value": "当前设备没有可用的系统 WebView，无法在应用内打开注册页"
+    },
+    {
+      "name": "open_browser_failed",
+      "value": "无法打开浏览器，请手动访问：%s"
+    },
+    {
+      "name": "action_retry",
+      "value": "重试"
+    },
+    {
+      "name": "mine_signed_in_title",
+      "value": "已登录"
+    },
+    {
+      "name": "settings_search_hint",
+      "value": "搜索设置"
+    },
+    {
+      "name": "settings_no_results",
+      "value": "没有匹配的设置项"
+    },
+    {
+      "name": "settings_back_to_list",
+      "value": "返回设置分类"
+    },
+    {
+      "name": "settings_cat_appearance",
+      "value": "外观"
+    },
+    {
+      "name": "settings_cat_privacy",
+      "value": "隐私与安全"
+    },
+    {
+      "name": "settings_cat_network",
+      "value": "网络"
+    },
+    {
+      "name": "settings_cat_browse",
+      "value": "浏览与搜索"
+    },
+    {
+      "name": "settings_cat_download",
+      "value": "下载"
+    },
+    {
+      "name": "settings_cat_storage",
+      "value": "存储与清理"
+    },
+    {
+      "name": "settings_cat_ai",
+      "value": "AI 功能"
+    },
+    {
+      "name": "settings_cat_blocked",
+      "value": "内容屏蔽"
+    }
+  ]
+}

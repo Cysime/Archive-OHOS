@@ -1,0 +1,600 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "Archive HarmonyOS NEXT 客户端主模块"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "Archive 主界面"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "Archive"
+    },
+    {
+      "name": "app_name",
+      "value": "Archive"
+    },
+    {
+      "name": "language_section",
+      "value": "語言"
+    },
+    {
+      "name": "language_title",
+      "value": "介面語言"
+    },
+    {
+      "name": "language_summary",
+      "value": "只影響應用程式的選單與設定文字，不翻譯貼文內容；切換後立即生效"
+    },
+    {
+      "name": "language_system",
+      "value": "跟隨系統"
+    },
+    {
+      "name": "nav_home",
+      "value": "首頁"
+    },
+    {
+      "name": "nav_discover",
+      "value": "探索"
+    },
+    {
+      "name": "nav_favorites",
+      "value": "收藏"
+    },
+    {
+      "name": "nav_mine",
+      "value": "我的"
+    },
+    {
+      "name": "ai_switch_deep",
+      "value": "深度思考"
+    },
+    {
+      "name": "ai_switch_deep_summary",
+      "value": "先推理再作答，適合長文；關閉時不向介面下發任何思考相關欄位"
+    },
+    {
+      "name": "ai_switch_web",
+      "value": "網路搜尋"
+    },
+    {
+      "name": "ai_switch_web_summary",
+      "value": "圖片問答裡問「這是什麼作品」很有用；翻譯一般不需要"
+    },
+    {
+      "name": "ai_thinking_level",
+      "value": "思考等級"
+    },
+    {
+      "name": "ai_thinking_level_summary",
+      "value": "OpenAI 系 reasoning_effort / 通義 thinking_budget；需先打開深度思考"
+    },
+    {
+      "name": "ai_thinking_low",
+      "value": "低（更快）"
+    },
+    {
+      "name": "ai_thinking_middle",
+      "value": "中（預設）"
+    },
+    {
+      "name": "ai_thinking_high",
+      "value": "高（更深入）"
+    },
+    {
+      "name": "profile_edit",
+      "value": "編輯"
+    },
+    {
+      "name": "profile_delete",
+      "value": "刪除"
+    },
+    {
+      "name": "profile_add",
+      "value": "新增檔案"
+    },
+    {
+      "name": "profile_editor_edit",
+      "value": "編輯檔案"
+    },
+    {
+      "name": "profile_no_model",
+      "value": "（未填模型）"
+    },
+    {
+      "name": "profile_field_name",
+      "value": "名稱（例如：智譜）"
+    },
+    {
+      "name": "profile_field_url",
+      "value": "介面位址"
+    },
+    {
+      "name": "profile_field_key",
+      "value": "API Key（自建端點可留空）"
+    },
+    {
+      "name": "profile_field_model",
+      "value": "模型（該檔案被指派到哪個用途，就為哪個任務服務）"
+    },
+    {
+      "name": "profile_field_show",
+      "value": "顯示"
+    },
+    {
+      "name": "profile_field_hide",
+      "value": "隱藏"
+    },
+    {
+      "name": "profile_invalid",
+      "value": "名稱、介面位址、模型都需要填寫後才能儲存"
+    },
+    {
+      "name": "action_save",
+      "value": "儲存"
+    },
+    {
+      "name": "action_cancel",
+      "value": "取消"
+    },
+    {
+      "name": "ai_settings_title",
+      "value": "貼文翻譯"
+    },
+    {
+      "name": "ai_overview_title",
+      "value": "AI 介面"
+    },
+    {
+      "name": "ai_overview_summary",
+      "value": "每個用途可指派不同平台的大模型；提示詞、取樣參數與推理開關對所有檔案統一生效。"
+    },
+    {
+      "name": "status_configured",
+      "value": "已設定"
+    },
+    {
+      "name": "status_pending",
+      "value": "待設定"
+    },
+    {
+      "name": "section_profiles",
+      "value": "模型檔案"
+    },
+    {
+      "name": "profiles_empty",
+      "value": "還沒有檔案。點「新增檔案」把你要用的平台接進來。"
+    },
+    {
+      "name": "section_purposes",
+      "value": "用途分配"
+    },
+    {
+      "name": "purposes_empty",
+      "value": "先新增檔案，再為每個用途指派模型。"
+    },
+    {
+      "name": "purpose_translation",
+      "value": "翻譯貼文"
+    },
+    {
+      "name": "purpose_translation_summary",
+      "value": "貼文標題與正文的翻譯"
+    },
+    {
+      "name": "purpose_vision",
+      "value": "辨識圖片（摘要 / 問答）"
+    },
+    {
+      "name": "purpose_vision_summary",
+      "value": "AI 摘要與圖片問答"
+    },
+    {
+      "name": "purpose_placeholder",
+      "value": "（請先新增檔案）"
+    },
+    {
+      "name": "auto_translate",
+      "value": "自動翻譯"
+    },
+    {
+      "name": "auto_translate_summary",
+      "value": "開啟貼文時自動開始翻譯（走「翻譯貼文」指派的檔案）；關閉後需手動點正文下方的「顯示翻譯」"
+    },
+    {
+      "name": "section_test",
+      "value": "測試"
+    },
+    {
+      "name": "test_summary",
+      "value": "「測試連線」走翻譯檔案、「識圖測試」走辨識圖片檔案；換端點 / 換模型後先在這裡確認。"
+    },
+    {
+      "name": "test_running",
+      "value": "測試中…"
+    },
+    {
+      "name": "test_connection",
+      "value": "測試連線"
+    },
+    {
+      "name": "test_vision",
+      "value": "識圖測試"
+    },
+    {
+      "name": "section_thinking",
+      "value": "推理與聯網"
+    },
+    {
+      "name": "section_prompt",
+      "value": "翻譯提示詞"
+    },
+    {
+      "name": "prompt_label",
+      "value": "系統提示詞"
+    },
+    {
+      "name": "prompt_hint",
+      "value": "作為 system 訊息下發：翻譯成什麼語言、什麼語氣都在這裡約束"
+    },
+    {
+      "name": "section_sampling",
+      "value": "取樣參數"
+    },
+    {
+      "name": "sampling_temperature",
+      "value": "溫度"
+    },
+    {
+      "name": "sampling_temperature_summary",
+      "value": "temperature · 0–2，越低越穩定"
+    },
+    {
+      "name": "sampling_top_p",
+      "value": "核取樣"
+    },
+    {
+      "name": "sampling_top_p_summary",
+      "value": "top_p · 0–1"
+    },
+    {
+      "name": "sampling_max_tokens",
+      "value": "最大輸出長度"
+    },
+    {
+      "name": "sampling_max_tokens_summary",
+      "value": "max_tokens · 128–8192，整篇翻譯建議 2400 以上"
+    },
+    {
+      "name": "sampling_freq",
+      "value": "頻率懲罰"
+    },
+    {
+      "name": "sampling_freq_summary",
+      "value": "frequency_penalty · -2–2"
+    },
+    {
+      "name": "sampling_pres",
+      "value": "存在懲罰"
+    },
+    {
+      "name": "sampling_pres_summary",
+      "value": "presence_penalty · -2–2"
+    },
+    {
+      "name": "field_api_type",
+      "value": "介面類型"
+    },
+    {
+      "name": "test_ok_no_switches",
+      "value": "連線正常 · %dms · 未開啟推理與聯網 · 「%s」"
+    },
+    {
+      "name": "test_ok_with_switches",
+      "value": "連線正常 · %dms · 已帶 %s · 「%s」"
+    },
+    {
+      "name": "test_warn_no_reasoning",
+      "value": "；回應中沒有 reasoning_content —— 端點可能忽略了深度思考參數"
+    },
+    {
+      "name": "test_warn_no_search",
+      "value": "；回應中沒有檢索資訊欄位（各家回傳方式不同，不代表一定沒檢索）"
+    },
+    {
+      "name": "test_failed",
+      "value": "失敗：%s"
+    },
+    {
+      "name": "test_switches_hint",
+      "value": "（本次已按「推理與聯網」的開關下發參數；可先關掉這些開關再測一次）"
+    },
+    {
+      "name": "vision_ok",
+      "value": "識圖正常 · %dms · 讀出「%s」"
+    },
+    {
+      "name": "vision_failed_unmatched",
+      "value": "介面通了，但沒讀出測試數字 %s（回應「%s」）：這個模型可能不支援視覺"
+    },
+    {
+      "name": "post_detail_title",
+      "value": "貼文詳情"
+    },
+    {
+      "name": "save_all_images",
+      "value": "儲存全部圖片"
+    },
+    {
+      "name": "favorite",
+      "value": "收藏"
+    },
+    {
+      "name": "unfavorite",
+      "value": "取消收藏"
+    },
+    {
+      "name": "share_post",
+      "value": "分享貼文"
+    },
+    {
+      "name": "author_avatar",
+      "value": "作者頭像"
+    },
+    {
+      "name": "subscribe",
+      "value": "訂閱"
+    },
+    {
+      "name": "subscribed",
+      "value": "已訂閱"
+    },
+    {
+      "name": "preview_only_notice",
+      "value": "該檔案被站點標記為 preview_only：未登入時僅提供預覽，原圖需要有效工作階段。"
+    },
+    {
+      "name": "cd_comments",
+      "value": "留言"
+    },
+    {
+      "name": "cd_attachments",
+      "value": "附件"
+    },
+    {
+      "name": "cd_share",
+      "value": "分享"
+    },
+    {
+      "name": "section_attachments",
+      "value": "附件（%d）"
+    },
+    {
+      "name": "external_links",
+      "value": "外部連結"
+    },
+    {
+      "name": "section_comments",
+      "value": "留言（%d）"
+    },
+    {
+      "name": "section_revisions",
+      "value": "修訂歷史（%d）"
+    },
+    {
+      "name": "revision_title",
+      "value": "修訂 #%s · %s"
+    },
+    {
+      "name": "revision_no_title",
+      "value": "(無標題)"
+    },
+    {
+      "name": "revision_edited",
+      "value": "編輯 %s"
+    },
+    {
+      "name": "revision_published",
+      "value": "發佈 %s"
+    },
+    {
+      "name": "prev_post",
+      "value": "上一篇"
+    },
+    {
+      "name": "next_post",
+      "value": "下一篇"
+    },
+    {
+      "name": "share_image",
+      "value": "分享圖片"
+    },
+    {
+      "name": "save_original",
+      "value": "儲存原圖"
+    },
+    {
+      "name": "save_all_originals",
+      "value": "儲存全部原圖"
+    },
+    {
+      "name": "copy_image_link",
+      "value": "複製圖片連結"
+    },
+    {
+      "name": "image_link",
+      "value": "圖片連結"
+    },
+    {
+      "name": "open_external_link",
+      "value": "開啟外部連結"
+    },
+    {
+      "name": "action_open",
+      "value": "開啟"
+    },
+    {
+      "name": "cd_open_link",
+      "value": "開啟連結"
+    },
+    {
+      "name": "attachment_image",
+      "value": "附件圖片"
+    },
+    {
+      "name": "download_named",
+      "value": "下載 %s"
+    },
+    {
+      "name": "link_expired_long",
+      "value": "臨時播放/下載連結已過期（站點給的連結約 30 天有效）：重新進入或重新整理該帖可取得新連結。"
+    },
+    {
+      "name": "link_preview_only_long",
+      "value": "站點僅收錄預覽（preview_only）：原檔案未匯入或需要登入工作階段，目前無法播放，下載也可能失敗。"
+    },
+    {
+      "name": "link_deferred_long",
+      "value": "站點尚未匯入該檔案的原件（deferred）：暫無可用網址，稍後重新整理該帖再看。"
+    },
+    {
+      "name": "download_add_failed",
+      "value": "加入下載失敗：%s"
+    },
+    {
+      "name": "unknown_error",
+      "value": "未知錯誤"
+    },
+    {
+      "name": "load_failed",
+      "value": "載入失敗：%s"
+    },
+    {
+      "name": "network_error",
+      "value": "網路錯誤"
+    },
+    {
+      "name": "link_expired_short",
+      "value": "臨時連結已過期，重新進入該帖可取得新連結"
+    },
+    {
+      "name": "no_original_short",
+      "value": "站點尚未匯入該檔案的原件，暫無下載網址"
+    },
+    {
+      "name": "open_link_prompt",
+      "value": "即將離開應用程式開啟：\n%s"
+    },
+    {
+      "name": "mine_signed_in",
+      "value": "已登入 · 雲端收藏已同步"
+    },
+    {
+      "name": "mine_not_signed_in",
+      "value": "未登入"
+    },
+    {
+      "name": "mine_sign_in_hint",
+      "value": "點擊登入，同步雲端收藏與原圖"
+    },
+    {
+      "name": "mine_messages",
+      "value": "訊息中心"
+    },
+    {
+      "name": "mine_storage",
+      "value": "儲存空間"
+    },
+    {
+      "name": "mine_downloads",
+      "value": "下載中心"
+    },
+    {
+      "name": "mine_history",
+      "value": "瀏覽歷史"
+    },
+    {
+      "name": "mine_settings",
+      "value": "設定"
+    },
+    {
+      "name": "mine_about",
+      "value": "關於 Archive"
+    },
+    {
+      "name": "mine_help",
+      "value": "說明與意見回饋"
+    },
+    {
+      "name": "mine_subscription_summary",
+      "value": "已訂閱 %d 位創作者"
+    },
+    {
+      "name": "history_clear",
+      "value": "清空瀏覽歷史"
+    },
+    {
+      "name": "history_clear_summary",
+      "value": "將刪除本機儲存的全部瀏覽記錄，此操作無法復原。"
+    },
+    {
+      "name": "history_clear_confirm",
+      "value": "清空"
+    },
+    {
+      "name": "history_empty",
+      "value": "暫無瀏覽記錄"
+    },
+    {
+      "name": "history_local_only",
+      "value": "僅儲存在本機"
+    },
+    {
+      "name": "pull_to_refresh_pull",
+      "value": "下拉重新整理"
+    },
+    {
+      "name": "pull_to_refresh_release",
+      "value": "鬆手重新整理"
+    },
+    {
+      "name": "pull_to_refresh_refreshing",
+      "value": "正在重新整理…"
+    },
+    {
+      "name": "pull_to_refresh_done",
+      "value": "重新整理完成"
+    },
+    {
+      "name": "register_web_hint",
+      "value": "站點註冊需要人機驗證，已在下方嵌入官方註冊頁。在網頁裡註冊或登入成功後應用程式會自動登入；若未自動登入，可用「登入」分頁登入。"
+    },
+    {
+      "name": "register_web_open_browser",
+      "value": "在瀏覽器中開啟"
+    },
+    {
+      "name": "register_web_failed",
+      "value": "註冊頁載入失敗：%s"
+    },
+    {
+      "name": "register_web_no_webview",
+      "value": "目前裝置沒有可用的系統 WebView，無法在應用程式內開啟註冊頁"
+    },
+    {
+      "name": "open_browser_failed",
+      "value": "無法開啟瀏覽器，請手動前往：%s"
+    },
+    {
+      "name": "action_retry",
+      "value": "重試"
+    },
+    {
+      "name": "mine_signed_in_title",
+      "value": "已登入"
+    }
+  ]
+}

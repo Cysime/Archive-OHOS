@@ -1,0 +1,600 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "Archive HarmonyOS NEXT 客户端主模块"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "Archive 主界面"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "Archive"
+    },
+    {
+      "name": "app_name",
+      "value": "Archive"
+    },
+    {
+      "name": "language_section",
+      "value": "Idioma"
+    },
+    {
+      "name": "language_title",
+      "value": "Idioma de la interfaz"
+    },
+    {
+      "name": "language_summary",
+      "value": "Solo afecta a los menús y textos de ajustes; el contenido de las publicaciones nunca se traduce. Se aplica al instante."
+    },
+    {
+      "name": "language_system",
+      "value": "Idioma del sistema"
+    },
+    {
+      "name": "nav_home",
+      "value": "Inicio"
+    },
+    {
+      "name": "nav_discover",
+      "value": "Descubrir"
+    },
+    {
+      "name": "nav_favorites",
+      "value": "Favoritos"
+    },
+    {
+      "name": "nav_mine",
+      "value": "Yo"
+    },
+    {
+      "name": "ai_switch_deep",
+      "value": "Razonamiento profundo"
+    },
+    {
+      "name": "ai_switch_deep_summary",
+      "value": "Razona antes de responder, ideal para textos largos. Desactivado: no se envía ningún campo de razonamiento"
+    },
+    {
+      "name": "ai_switch_web",
+      "value": "Búsqueda web"
+    },
+    {
+      "name": "ai_switch_web_summary",
+      "value": "Útil para preguntar qué obra es en una imagen; rara vez necesario para traducir"
+    },
+    {
+      "name": "ai_thinking_level",
+      "value": "Nivel de razonamiento"
+    },
+    {
+      "name": "ai_thinking_level_summary",
+      "value": "reasoning_effort (OpenAI) / thinking_budget (Qwen); requiere razonamiento profundo"
+    },
+    {
+      "name": "ai_thinking_low",
+      "value": "Bajo (más rápido)"
+    },
+    {
+      "name": "ai_thinking_middle",
+      "value": "Medio (predeterminado)"
+    },
+    {
+      "name": "ai_thinking_high",
+      "value": "Alto (más profundo)"
+    },
+    {
+      "name": "profile_edit",
+      "value": "Editar"
+    },
+    {
+      "name": "profile_delete",
+      "value": "Eliminar"
+    },
+    {
+      "name": "profile_add",
+      "value": "Añadir perfil"
+    },
+    {
+      "name": "profile_editor_edit",
+      "value": "Editar perfil"
+    },
+    {
+      "name": "profile_no_model",
+      "value": "(sin modelo)"
+    },
+    {
+      "name": "profile_field_name",
+      "value": "Nombre (p. ej. Zhipu)"
+    },
+    {
+      "name": "profile_field_url",
+      "value": "URL del endpoint"
+    },
+    {
+      "name": "profile_field_key",
+      "value": "Clave API (vacío si es tu servidor)"
+    },
+    {
+      "name": "profile_field_model",
+      "value": "Modelo (se usa para la tarea asignada)"
+    },
+    {
+      "name": "profile_field_show",
+      "value": "Mostrar"
+    },
+    {
+      "name": "profile_field_hide",
+      "value": "Ocultar"
+    },
+    {
+      "name": "profile_invalid",
+      "value": "Nombre, URL y modelo son obligatorios"
+    },
+    {
+      "name": "action_save",
+      "value": "Guardar"
+    },
+    {
+      "name": "action_cancel",
+      "value": "Cancelar"
+    },
+    {
+      "name": "ai_settings_title",
+      "value": "Traducción de publicaciones"
+    },
+    {
+      "name": "ai_overview_title",
+      "value": "Endpoint de IA"
+    },
+    {
+      "name": "ai_overview_summary",
+      "value": "Cada uso puede usar un modelo de otra plataforma; el prompt, el muestreo y los interruptores de razonamiento se aplican a todos los perfiles."
+    },
+    {
+      "name": "status_configured",
+      "value": "Configurado"
+    },
+    {
+      "name": "status_pending",
+      "value": "Sin configurar"
+    },
+    {
+      "name": "section_profiles",
+      "value": "Perfiles de modelo"
+    },
+    {
+      "name": "profiles_empty",
+      "value": "Aún no hay perfiles. Toca «Añadir perfil» para conectar una plataforma."
+    },
+    {
+      "name": "section_purposes",
+      "value": "Asignación de usos"
+    },
+    {
+      "name": "purposes_empty",
+      "value": "Añade un perfil primero y asígnalo a cada uso."
+    },
+    {
+      "name": "purpose_translation",
+      "value": "Traducción de publicaciones"
+    },
+    {
+      "name": "purpose_translation_summary",
+      "value": "Traducir el título y el cuerpo"
+    },
+    {
+      "name": "purpose_vision",
+      "value": "Comprensión de imágenes (resumen / preguntas)"
+    },
+    {
+      "name": "purpose_vision_summary",
+      "value": "Resumen de IA y preguntas sobre la imagen"
+    },
+    {
+      "name": "purpose_placeholder",
+      "value": "(añade un perfil primero)"
+    },
+    {
+      "name": "auto_translate",
+      "value": "Traducción automática"
+    },
+    {
+      "name": "auto_translate_summary",
+      "value": "Empieza al abrir una publicación (usa el perfil de Traducción de publicaciones); desactivado, toca «Mostrar traducción»."
+    },
+    {
+      "name": "section_test",
+      "value": "Probar"
+    },
+    {
+      "name": "test_summary",
+      "value": "«Probar conexión» usa el perfil de traducción y «Probar imágenes» el de imágenes; pruébalos tras cambiar de endpoint o modelo."
+    },
+    {
+      "name": "test_running",
+      "value": "Probando…"
+    },
+    {
+      "name": "test_connection",
+      "value": "Probar conexión"
+    },
+    {
+      "name": "test_vision",
+      "value": "Probar imágenes"
+    },
+    {
+      "name": "section_thinking",
+      "value": "Razonamiento y web"
+    },
+    {
+      "name": "section_prompt",
+      "value": "Prompt"
+    },
+    {
+      "name": "prompt_label",
+      "value": "Prompt del sistema"
+    },
+    {
+      "name": "prompt_hint",
+      "value": "Se envía como mensaje de sistema: aquí defines idioma y tono"
+    },
+    {
+      "name": "section_sampling",
+      "value": "Muestreo"
+    },
+    {
+      "name": "sampling_temperature",
+      "value": "Temperatura"
+    },
+    {
+      "name": "sampling_temperature_summary",
+      "value": "temperature · 0–2, más bajo = más estable"
+    },
+    {
+      "name": "sampling_top_p",
+      "value": "Top-p"
+    },
+    {
+      "name": "sampling_top_p_summary",
+      "value": "top_p · 0–1"
+    },
+    {
+      "name": "sampling_max_tokens",
+      "value": "Salida máxima"
+    },
+    {
+      "name": "sampling_max_tokens_summary",
+      "value": "max_tokens · 128–8192, usa 2400+ para textos largos"
+    },
+    {
+      "name": "sampling_freq",
+      "value": "Penalización de frecuencia"
+    },
+    {
+      "name": "sampling_freq_summary",
+      "value": "frequency_penalty · -2–2"
+    },
+    {
+      "name": "sampling_pres",
+      "value": "Penalización de presencia"
+    },
+    {
+      "name": "sampling_pres_summary",
+      "value": "presence_penalty · -2–2"
+    },
+    {
+      "name": "field_api_type",
+      "value": "Tipo de API"
+    },
+    {
+      "name": "test_ok_no_switches",
+      "value": "Conexión OK · %dms · razonamiento y web desactivados · «%s»"
+    },
+    {
+      "name": "test_ok_with_switches",
+      "value": "Conexión OK · %dms · enviado %s · «%s»"
+    },
+    {
+      "name": "test_warn_no_reasoning",
+      "value": "; la respuesta no incluía reasoning_content: el endpoint puede ignorar el razonamiento profundo"
+    },
+    {
+      "name": "test_warn_no_search",
+      "value": "; la respuesta no incluía información de búsqueda"
+    },
+    {
+      "name": "test_failed",
+      "value": "Error: %s"
+    },
+    {
+      "name": "test_switches_hint",
+      "value": "(Se enviaron los parámetros según los interruptores; desactívalos y prueba otra vez)"
+    },
+    {
+      "name": "vision_ok",
+      "value": "Imagen OK · %dms · leído «%s»"
+    },
+    {
+      "name": "vision_failed_unmatched",
+      "value": "La conexión funciona, pero no se leyó el número de prueba %s (respuesta «%s»): puede que el modelo no admita imágenes"
+    },
+    {
+      "name": "post_detail_title",
+      "value": "Detalles de la publicación"
+    },
+    {
+      "name": "save_all_images",
+      "value": "Guardar todas las imágenes"
+    },
+    {
+      "name": "favorite",
+      "value": "Favorito"
+    },
+    {
+      "name": "unfavorite",
+      "value": "Quitar de favoritos"
+    },
+    {
+      "name": "share_post",
+      "value": "Compartir publicación"
+    },
+    {
+      "name": "author_avatar",
+      "value": "Avatar del autor"
+    },
+    {
+      "name": "subscribe",
+      "value": "Suscribirse"
+    },
+    {
+      "name": "subscribed",
+      "value": "Suscrito"
+    },
+    {
+      "name": "preview_only_notice",
+      "value": "El sitio marca este archivo como preview_only: sin sesión solo hay vista previa; el original requiere una sesión válida."
+    },
+    {
+      "name": "cd_comments",
+      "value": "Comentarios"
+    },
+    {
+      "name": "cd_attachments",
+      "value": "Adjuntos"
+    },
+    {
+      "name": "cd_share",
+      "value": "Compartir"
+    },
+    {
+      "name": "section_attachments",
+      "value": "Adjuntos (%d)"
+    },
+    {
+      "name": "external_links",
+      "value": "Enlaces externos"
+    },
+    {
+      "name": "section_comments",
+      "value": "Comentarios (%d)"
+    },
+    {
+      "name": "section_revisions",
+      "value": "Historial de revisiones (%d)"
+    },
+    {
+      "name": "revision_title",
+      "value": "Revisión n.º %s · %s"
+    },
+    {
+      "name": "revision_no_title",
+      "value": "(sin título)"
+    },
+    {
+      "name": "revision_edited",
+      "value": "Editado %s"
+    },
+    {
+      "name": "revision_published",
+      "value": "Publicado %s"
+    },
+    {
+      "name": "prev_post",
+      "value": "Anterior"
+    },
+    {
+      "name": "next_post",
+      "value": "Siguiente"
+    },
+    {
+      "name": "share_image",
+      "value": "Compartir imagen"
+    },
+    {
+      "name": "save_original",
+      "value": "Guardar original"
+    },
+    {
+      "name": "save_all_originals",
+      "value": "Guardar todos los originales"
+    },
+    {
+      "name": "copy_image_link",
+      "value": "Copiar enlace de la imagen"
+    },
+    {
+      "name": "image_link",
+      "value": "Enlace de la imagen"
+    },
+    {
+      "name": "open_external_link",
+      "value": "Abrir enlace externo"
+    },
+    {
+      "name": "action_open",
+      "value": "Abrir"
+    },
+    {
+      "name": "cd_open_link",
+      "value": "Abrir enlace"
+    },
+    {
+      "name": "attachment_image",
+      "value": "Imagen adjunta"
+    },
+    {
+      "name": "download_named",
+      "value": "Descargar %s"
+    },
+    {
+      "name": "link_expired_long",
+      "value": "El enlace temporal de reproducción/descarga ha caducado (los enlaces del sitio duran unos 30 días): vuelve a entrar o actualiza esta publicación."
+    },
+    {
+      "name": "link_preview_only_long",
+      "value": "El sitio solo guarda una vista previa (preview_only): el original no se importó o requiere sesión; la reproducción y la descarga pueden fallar."
+    },
+    {
+      "name": "link_deferred_long",
+      "value": "El sitio aún no ha importado el original (deferred): no hay dirección disponible, actualiza más tarde."
+    },
+    {
+      "name": "download_add_failed",
+      "value": "No se pudo añadir a descargas: %s"
+    },
+    {
+      "name": "unknown_error",
+      "value": "Error desconocido"
+    },
+    {
+      "name": "load_failed",
+      "value": "Error al cargar: %s"
+    },
+    {
+      "name": "network_error",
+      "value": "Error de red"
+    },
+    {
+      "name": "link_expired_short",
+      "value": "El enlace temporal ha caducado; vuelve a entrar en la publicación"
+    },
+    {
+      "name": "no_original_short",
+      "value": "El sitio no ha importado el original, no hay enlace de descarga"
+    },
+    {
+      "name": "open_link_prompt",
+      "value": "Se saldrá de la app para abrir:\n%s"
+    },
+    {
+      "name": "mine_signed_in",
+      "value": "Sesión iniciada · favoritos en la nube sincronizados"
+    },
+    {
+      "name": "mine_not_signed_in",
+      "value": "Sin sesión"
+    },
+    {
+      "name": "mine_sign_in_hint",
+      "value": "Toca para iniciar sesión y sincronizar favoritos y originales"
+    },
+    {
+      "name": "mine_messages",
+      "value": "Notificaciones"
+    },
+    {
+      "name": "mine_storage",
+      "value": "Almacenamiento"
+    },
+    {
+      "name": "mine_downloads",
+      "value": "Descargas"
+    },
+    {
+      "name": "mine_history",
+      "value": "Historial de navegación"
+    },
+    {
+      "name": "mine_settings",
+      "value": "Ajustes"
+    },
+    {
+      "name": "mine_about",
+      "value": "Acerca de Archive"
+    },
+    {
+      "name": "mine_help",
+      "value": "Ayuda y comentarios"
+    },
+    {
+      "name": "mine_subscription_summary",
+      "value": "Siguiendo a %d creadores"
+    },
+    {
+      "name": "history_clear",
+      "value": "Borrar historial de navegación"
+    },
+    {
+      "name": "history_clear_summary",
+      "value": "Elimina todo el historial guardado en este dispositivo. No se puede deshacer."
+    },
+    {
+      "name": "history_clear_confirm",
+      "value": "Borrar"
+    },
+    {
+      "name": "history_empty",
+      "value": "Sin historial"
+    },
+    {
+      "name": "history_local_only",
+      "value": "Guardado solo en este dispositivo"
+    },
+    {
+      "name": "pull_to_refresh_pull",
+      "value": "Desliza para actualizar"
+    },
+    {
+      "name": "pull_to_refresh_release",
+      "value": "Suelta para actualizar"
+    },
+    {
+      "name": "pull_to_refresh_refreshing",
+      "value": "Actualizando…"
+    },
+    {
+      "name": "pull_to_refresh_done",
+      "value": "Actualizado correctamente"
+    },
+    {
+      "name": "register_web_hint",
+      "value": "El registro requiere un captcha, así que la página oficial está integrada abajo. Regístrate o inicia sesión allí y la app entrará automáticamente; si no, usa la pestaña Iniciar sesión."
+    },
+    {
+      "name": "register_web_open_browser",
+      "value": "Abrir en el navegador"
+    },
+    {
+      "name": "register_web_failed",
+      "value": "No se pudo cargar la página de registro: %s"
+    },
+    {
+      "name": "register_web_no_webview",
+      "value": "Este dispositivo no tiene un WebView del sistema utilizable; no se puede mostrar la página de registro dentro de la app"
+    },
+    {
+      "name": "open_browser_failed",
+      "value": "No se puede abrir un navegador. Visita manualmente: %s"
+    },
+    {
+      "name": "action_retry",
+      "value": "Reintentar"
+    },
+    {
+      "name": "mine_signed_in_title",
+      "value": "Sesión iniciada"
+    }
+  ]
+}

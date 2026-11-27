@@ -1,0 +1,17 @@
+# HarmonyOS / DevEco Studio / HVigor / OHPM local build artifacts
+.hvigor/
+.idea/
+.preview/
+.cxx/
+build/
+entry/build/
+oh_modules/
+entry/oh_modules/
+node_modules/
+local.properties
+*.hap
+*.hsp
+*.har
+*.app
+*.log
+.DS_Store
